@@ -70,4 +70,11 @@
 
 
 @push('footer')
+
+    <script src="{{ asset('vendors/circle-bar/circle-progress.min.js') }}"></script>
+    <script src="{{ asset('vendors/circle-bar/plugins.js') }}"></script>
+    <script src="{{ asset('vendors/isotope/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('vendors/isotope/isotope.pkgd.min.js') }}"></script>    
+    <script src="{{ asset('js/circle-active.js') }}"></script>
+
 @endpush
