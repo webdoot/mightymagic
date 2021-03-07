@@ -30,12 +30,7 @@
               <p> Dashboard </p>
             </a>
           </li>   
-          <li class="nav-item menu-open">
-            <a href="{{ route('testapi.form') }}" class="nav-link {{ (request()->is('testapi')) ? 'active' : '' }}">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p> Test </p>
-            </a>
-          </li>       
+                
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

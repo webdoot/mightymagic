@@ -15,8 +15,14 @@ use Illuminate\Support\Facades\Route;
 	 | For all users.
 	 */	
 Route::group(['middleware' => ['web']], function(){
-	Route::get('/', 'Web\HomeController@index');
-	Route::get('home', 'Web\HomeController@index')->name('home');
+	Route::get('/', 'Web\HomeController@home');
+	Route::get('home', 'Web\HomeController@home')->name('home');
+	Route::get('about', 'Web\HomeController@about')->name('about');
+	Route::get('services', 'Web\HomeController@service')->name('service');
+	Route::get('portfolio', 'Web\HomeController@portfolio')->name('portfolio');
+	Route::get('contact', 'Web\HomeController@contact')->name('contact');
+
+	Route::get('dashboard', 'DashboardController@adminIndex')->name('dashboard.admin');
 	
 });
 
@@ -27,5 +33,5 @@ Route::group(['middleware' => ['web']], function(){
 	 | For logged in users only.
 	 */	
 Route::group(['middleware' => ['auth', 'verified'], 'prefix' => 'account'], function(){
-	Route::get('dashboard', 'DashboardController@adminIndex')->name('dashboard.admin');
+	//code
 });
