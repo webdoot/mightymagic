@@ -1,7 +1,10 @@
 <!--================Header Menu Area =================-->
 <header class="main_menu_area">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+        <a class="navbar-brand" href="{{route('home')}}">
+            <img id="brand-logo" src="image/mm-black-logo.png" alt="mightymagic logo">
+            <img id="brand-logo-1" src="image/mm-logo.png" alt="mightymagic logo">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span></span>
             <span></span>

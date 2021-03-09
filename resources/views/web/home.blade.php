@@ -3,6 +3,16 @@
 @section('title', 'Home')
 
 @push('head')
+<style type="text/css">
+	.navbar-brand img {
+		max-width: 95px;
+		height: auto;
+	}
+
+	#brand-logo-1 {
+		display: none;
+	}
+</style>
 @endpush
 
 @section('content')

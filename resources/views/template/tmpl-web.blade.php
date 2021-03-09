@@ -2,12 +2,12 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>{{ config('app.name', 'Domain') }}-@yield('title')</title>
+  <link rel="icon" href="{{ asset('image/fav-icon.png') }}" type="image/x-icon" />
 
-  <link rel="icon" href="{{ asset('img/fav-icon.png') }}" type="image/x-icon" />
+  <title>{{ config('app.name', 'Domain') }}-@yield('title')</title>  
 
   <!-- Icon css link -->
   <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
@@ -21,7 +21,7 @@
   
   <!-- Extra plugin css -->
   <link href="{{ asset('vendors/owl-carousel/owl.carousel.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('vendors/magnify-popup/magnific-popup.css') }}" rel="stylesheet">
+  <!-- <link href="{{ asset('vendors/magnify-popup/magnific-popup.css') }}" rel="stylesheet"> -->
   
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
   <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
@@ -48,7 +48,7 @@
   <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="{{ asset('js/popper.min.js') }}"></script>
-  <script src="js/bootstrap.min.js') }}"></script>
+  <script src="{{ asset('js/bootstrap.min.js') }}"></script>
   <!-- Rev slider js -->
   <script src="{{ asset('vendors/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
   <script src="{{ asset('vendors/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>

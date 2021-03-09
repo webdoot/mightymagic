@@ -13,8 +13,16 @@
                 var scroll = $(window).scrollTop();   
                 if (scroll >= nav_offset_top ) {
                     $(".main_menu_area").addClass("navbar_fixed");
+
+                    // band logo change
+                    $("#brand-logo").hide();
+                    $("#brand-logo-1").show();
                 } else {
                     $(".main_menu_area").removeClass("navbar_fixed");
+
+                    // band logo change
+                    $("#brand-logo").show();
+                    $("#brand-logo-1").hide();
                 }
             });
         };

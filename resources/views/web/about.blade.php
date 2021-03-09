@@ -3,6 +3,9 @@
 @section('title', 'About')
 
 @push('head')
+ <style type="text/css">
+     
+ </style>
 @endpush
 
 @section('content')
@@ -22,7 +25,7 @@
     <section class="challange_area p_100">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="challange_text_inner">
                         <div class="l_title">
                             <img src="img/icon/title-icon.png" alt="">
@@ -35,11 +38,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 challange_img">
+                <!-- <div class="col-lg-6 challange_img">
                     <div class="challange_img_inner">
                         <img class="img-fluid" src="img/popup-photo.jpg" alt="">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
