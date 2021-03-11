@@ -1,5 +1,5 @@
-<!--================Get in Touch Area =================-->
-<section class="get_in_touch_area">
+<!-- ================Get in Touch Area =================-->
+<section class="get_in_touch_area p_100">
     <div class="container">
         <div class="row get_touch_inner">
             <div class="col-lg-6">
@@ -26,14 +26,15 @@
                     <div class="l_title">
                         <img src="img/icon/title-icon.png" alt="">
                         <h6>Say hello</h6>
-                        <h2>Get in touch, send us an e-mail or call us</h2>
+                        <!-- <h2>Get in touch with us</h2> -->
                     </div>
-                    <p>Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum.</p>
+                    <p><i class="fa fa-bank"></i> &nbsp; 2A, S.N.HOUSE, Opp. Rock Regency Hotel, C.G.Road, Ahmedabad- 380006, India.</p>
+                    <p><i class="fa fa-envelope"></i> &nbsp; biz@mightymagicdigital.com, marketing@mightymagicdigital.com</p>
                     <a href="#"><h5>Call us now</h5></a>
-                    <a href="#"><h4>+452373 95593 232</h4></a>
+                    <a href="#"><h4>+91-98256 45677</h4></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--================End Get in Touch Area =================-->
+<!--================End Get in Touch Area =================

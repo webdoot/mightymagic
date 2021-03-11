@@ -5,14 +5,20 @@
             <div class="row footer_widget_inner">
                 <div class="col-lg-4 col-sm-6">
                     <aside class="f_widget f_about_widget">
-                        <img src="img/footer-logo.png" alt="">
-                        <p>Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum.</p>
+                        <img src="image/mm-black-logo.png" height="55" alt="">
+                        <p>Mighty Magic Digital Pvt.Ltd. is the entertaining platform build in India. We help our clients to portray their own story.</p>
+
+                        <ul class="social-icon">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google"></i></a></li>                            
+                        </ul>
                     </aside>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <aside class="f_widget f_insta_widget">
                         <div class="f_title">
-                            <h3>Instagram</h3>
+                            <h3>Glimpse</h3>
                         </div>
                         <ul>
                             <li><a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a></li>
@@ -44,21 +50,7 @@
     </div>
     <div class="footer_copyright">
         <div class="container">
-            <div class="float-sm-left">
-                <h5><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></h5>
-            </div>
-            <div class="float-sm-right">
-                <ul>
-                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
+            <h5 style="color: #c4caee">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Mighty Magic Pvt. Ltd </h5>
         </div>
     </div>
 </footer>

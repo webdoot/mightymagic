@@ -35,6 +35,47 @@
 
   @stack('head')
 
+  <style type="text/css">
+    .navbar-brand img {
+      max-width: 95px;
+      height: auto;
+    }
+
+    #brand-logo-1 {
+      display: none;
+    }
+
+    .main_menu_area .navbar 
+    .navbar-nav li:hover a, 
+    .main_menu_area .navbar 
+    .navbar-nav li.active a {
+        color: #E51A4B;
+    }
+
+    .f_about_widget img {
+      padding: 0px;
+      margin-bottom: 25px;
+    }
+
+    .social-icon li {
+      display: inline-block;
+      width: 30px;
+      margin: 25px 5px;
+      background-color: white;
+      text-align: center;
+      border-radius: 4px;
+    }  
+
+    .footr_area {
+      border-top: 6px solid rgba(204, 241, 255, 0.5);
+    }  
+
+    .footer_copyright h5{
+      font-size: 14px;
+      text-align: center;
+    }
+  </style>
+
 </head>
 <body>
   

@@ -3,6 +3,20 @@
 @section('title', 'Contact')
 
 @push('head')
+<style type="text/css">
+    .contact_us_form .form-group textarea {
+      height: 74px;
+    }
+
+    .touch_details i {
+      width: 30px;
+      background-color: #7c8d93;
+      color: white;
+      text-align: center;
+      padding: 4px 0px;
+      border-radius: 4px;
+    }
+</style>
 @endpush
 
 @section('content')
@@ -16,92 +30,19 @@
                 </div>
             </div>
         </section>
-        <!--================End Banner Area =================-->
+        <!--================End Banner Area =================-->       
+
+        @include('template.web-inc.get-in-touch')
         
-        <!--================Get in Touch Area =================-->
-        <section class="get_in_touch_area p_100">
-            <div class="container">
-                <div class="row get_touch_inner">
-                    <div class="col-lg-6">
-                        <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                            <div class="form-group col-lg-6">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-                            </div>
-                            <div class="form-group col-lg-6">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                            </div>
-                            <div class="form-group col-lg-12">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*">
-                            </div>
-                            <div class="form-group col-lg-12">
-                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message"></textarea>
-                            </div>
-                            <div class="form-group col-lg-12">
-                                <button type="submit" value="submit" class="btn submit_btn form-control">Send</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="touch_details">
-                            <div class="l_title">
-                                <img src="img/icon/title-icon.png" alt="">
-                                <h6>Say hello</h6>
-                                <h2>Get in touch, send us an e-mail or call us</h2>
-                            </div>
-                            <p>Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum.</p>
-                            <a href="tel:+45237395593232"><h5>Call us now</h5></a>
-                            <a href="tel:+45237395593232"><h4>+452373 95593 232</h4></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!--================Map Area =================-->       
+        <section style="border: 6px solid rgba(204, 241, 255, 0.5);">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.861238656782!2d72.55662911493349!3d23.028866584949892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85a1b2821747%3A0x166f0fa41b493895!2sMIGHTY%20MAGIC%20DIGITAL%20PVT.%20LTD.!5e0!3m2!1sen!2sin!4v1615443192054!5m2!1sen!2sin" width="1960" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
-        <!--================End Get in Touch Area =================-->
-        
-        <!--================Map Area =================-->
-        <section class="contact_map_area">
-            <div id="mapBox1" class="mapBox1 row m0" 
-                data-lat="40.701083" 
-                data-lon="-74.1522848" 
-                data-zoom="15" 
-                data-marker="" 
-                data-info=""
-                data-mlat=""
-                data-mlon="">
-            </div>
-            <div class="map_location_box">
-                <div class="container">
-                    <div class="map_l_box_inner">
-                        <div class="bd-callout">
-                            <h3>Gibraltar Office</h3>
-                            <p>Casemates Square, no253 <br /> United kingdom</p>
-                            <h4><a href="#">+453678 9283 559</a> <a href="#">contact@template.com</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Map Area =================-->
+        <!--================End Map Area =================-->       
 
 @endsection
 
 
 @push('footer')
-
-	<script src="{{ asset('vendors/circle-bar/circle-progress.min.js') }}"></script>
-    <script src="{{ asset('vendors/circle-bar/plugins.js') }}"></script>
-    <script src="{{ asset('vendors/isotope/imagesloaded.pkgd.min.js') }}"></script>
-    <script src="{{ asset('vendors/isotope/isotope.pkgd.min.js') }}"></script>
-    
-    <!--gmaps Js-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-    <script src="{{ asset('js/gmaps.min.js') }}"></script>
-    
-    <!-- contact js -->
-    <script src="{{ asset('js/jquery.form.js') }}"></script>
-    <script src="{{ asset('js/jquery.validate.min.js') }}"></script>
-    <script src="{{ asset('js/contact.js') }}"></script>
-    
-    <script src="{{ asset('js/circle-active.js') }}"></script>
 
 @endpush
