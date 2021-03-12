@@ -19,7 +19,7 @@ class HomeController extends Controller
 
     public function service()
     {
-    	return view('web.services.service');
+    	return view('web.service');
     }
 
     public function portfolio()

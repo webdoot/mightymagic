@@ -179,7 +179,7 @@
 
       @include('template.web-inc.best-slider')
 
-      @include('template.web-inc.team-people')
+      @include('template.web-inc.achievment')
 
 @endsection
 

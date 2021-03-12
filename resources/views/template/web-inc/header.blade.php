@@ -28,7 +28,7 @@
                     </ul>
                 </li>
                 <li class="nav-item {{ (request()->is('portfolio')) ? 'active' : '' }}"><a class="nav-link" href="{{route('portfolio')}}">Portfolio</a></li>                
-                <li class="nav-item {{ (request()->is('contact')) ? 'active' : '' }}"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
+                <li class="nav-item {{ (request()->is('contact')) ? 'active' : '' }}"><a class="nav-link" href="{{route('contact')}}">Reach Us</a></li>
             </ul>
         </div>
     </nav>

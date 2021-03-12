@@ -21,7 +21,7 @@
   
   <!-- Extra plugin css -->
   <link href="{{ asset('vendors/owl-carousel/owl.carousel.min.css') }}" rel="stylesheet">
-  <!-- <link href="{{ asset('vendors/magnify-popup/magnific-popup.css') }}" rel="stylesheet"> -->
+  <link href="{{ asset('vendors/magnify-popup/magnific-popup.css') }}" rel="stylesheet">
   
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
   <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">

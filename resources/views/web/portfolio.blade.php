@@ -25,8 +25,8 @@
                     <ul>
                         <li class="active" data-filter="*"><a href="#">All</a></li>
                         <li data-filter=".brand"><a href="#">Brand identity</a></li>
-                        <li data-filter=".design"><a href="#">Design</a></li>
-                        <li data-filter=".arc"><a href="#">Architecture</a></li>
+                        <li data-filter=".design"><a href="#">Social Media Marketing </a></li>
+                        <li data-filter=".arc"><a href="#">Corporate Films & Web series </a></li>
                         <li data-filter=".photo"><a href="#">Photography</a></li>
                     </ul>
                 </div>

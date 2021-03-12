@@ -29,7 +29,7 @@
                             </div>
                             <h4>Film Making and OTT Platform</h4>
                             <p>Film lets us speak in fresh and exciting ways. No matter our message, film will express it with clarity and creativity. Film, also called as motion picture, a visual art form used to simulate experiences that communicate ideas, stories, perceptions, feelings, beauty or atmosphere through the use of moving images. </p>
-                            <a class="more_btn" href="#">Read More</a>
+                            <a class="more_btn" href="{{route('service.ott')}}">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -39,7 +39,7 @@
                             </div>
                             <h4>Brand Identity</h4>
                             <p>Graphic design is all around you. A design with unique message which gives desired result from that message. The message may be providing information ,invoke thoughts or even stimulates meaningful conversation. It’s about expressing an idea in the best way using visual story telling. </p>
-                            <a class="more_btn" href="#">Read More</a>
+                            <a class="more_btn" href="{{route('service.brand')}}">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -49,7 +49,7 @@
                             </div>
                             <h4>Web Solutions </h4>
                             <p>A website gives you platform to serve your clients better. It almost removes the mark of questions from viewer’s mind. An attractive, usable, accessible and designed website provides the best possible experience to the users. Mighty Magic is ready to serve you all web services, like web development, web streaming solution. </p>
-                            <a class="more_btn" href="#">Read More</a>
+                            <a class="more_btn" href="{{route('service.web')}}">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -60,7 +60,7 @@
                             <h4>Corporate Films & Professional Photography </h4>
                             <p>Corporate films and videos can have a host of applications, whether you want to produce a video for training and motivating employees or whether you would like to highlight the benefits of your products / services while presenting your company's strengths. Whatever your requirements are, we can create powerful and lasting films that will remain with the target audience. 
                             Without Photography the world of advertising does not exist. The world witnessed the boom of professional photography services in every of life. Business houses cannot sell their wares. </p>
-                            <a class="more_btn" href="#">Read More</a>
+                            <a class="more_btn" href="{{route('service.corporate')}}">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -70,7 +70,7 @@
                             </div>
                             <h4>Print & Production </h4>
                             <p>Our printing and production service comprise of experienced in the printing domain.</p>
-                            <a class="more_btn" href="#">Read More</a>
+                            <a class="more_btn" href="{{route('service.print')}}">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -80,7 +80,7 @@
                             </div>
                             <h4>Social Media Marketing  </h4>
                             <p>Social media is where many of your customers spend their leisure time. Facebook, Instagram, LinkedIn and other networking platforms provide wonderful opportunities for businesses to reach their ideal audience at the right time. You can use it to understand your customer’s needs, attract new  customers and help drive traffic to your website.</p>
-                            <a class="more_btn" href="#">Read More</a>
+                            <a class="more_btn" href="{{route('service.social')}}">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -144,58 +144,15 @@
                                 <h6>Discover the features</h6>
                                 <h2>Simple solutions for complicated times</h2>
                             </div>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum. Nam convallis vel erat id dictum. Sed ut risus in orci convallis viverra a eget nisi. Aenean pellentesque elit vitae eros dignissim ultrices. </p>
-                            <div id="accordion" role="tablist" class="solution_collaps">
-                                <div class="card">
-                                    <div class="card-header" role="tab" id="headingOne">
-                                        <h5 class="mb-0">
-                                            <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis
-                                            <i class="minus">-</i>
-                                            <i class="plus">+</i>
-                                            </a>
-                                        </h5>
-                                    </div>
+                            <p>It’s likely that all businesses will need to outsource creative services from time to time. Needing to design and print items such as flyers or business cards is fairly typical, but maintaining a constant flow of visually engaging digital content can be instrumental to your online brand awareness. <br> <br>
 
-                                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                                        <div class="card-body">
-                                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header" role="tab" id="headingTwo">
-                                        <h5 class="mb-0">
-                                            <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Sed dapibus nunc vulputate mi fringilla, eu consequat
-                                            <i class="minus">-</i>
-                                            <i class="plus">+</i>
-                                            </a>
-                                        </h5>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-                                        <div class="card-body">
-                                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header" role="tab" id="headingThree">
-                                        <h5 class="mb-0">
-                                            <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Curabitur eu libero sed erat viverra gravida at id ex
-                                            <i class="minus">-</i>
-                                            <i class="plus">+</i>
-                                            </a>
-                                        </h5>
-                                    </div>
-                                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-                                        <div class="card-body">
-                                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            On regular basis need of creative designs and web maintenance, for corporate client we prefer to go with retainership agreement between agencies to client with monthly billing amount. <br> <br>
+
+                            We provide creative graphic design and website maintenance, digital promotion, manage social pages and more in retainer services for which they required time to time new design development, website design and update, marketing material design printing and many more regular services. <br> <br>
+
+                            We cater prioritized service on discounted rates for both creative graphic design and website development tasks of the clients that have been associated with retainer ship agreement. <br> <br>
+
+                            We offer diverse package options for different companies that suit their needs. Retainership will help you to reduce your overall cost and an ease in maintaining a unique and same level quality. Service period for retainership ranges from 6 months to 12 months. </p> <br>
                         </div>
                     </div>
                 </div>
@@ -207,4 +164,8 @@
 
 
 @push('footer')
+<script src="{{ asset('vendors/circle-bar/circle-progress.min.js')}}"></script>
+<script src="{{ asset('vendors/circle-bar/plugins.js')}}"></script>
+<script src="{{ asset('js/circle-active.js')}}"></script>
+
 @endpush

@@ -5,7 +5,7 @@
             <div class="row footer_widget_inner">
                 <div class="col-lg-4 col-sm-6">
                     <aside class="f_widget f_about_widget">
-                        <img src="image/mm-black-logo.png" height="55" alt="">
+                        <img src="{{ asset('image/mm-black-logo.png')}}" height="55" alt="">
                         <p>Mighty Magic Digital Pvt.Ltd. is the entertaining platform build in India. We help our clients to portray their own story.</p>
 
                         <ul class="social-icon">
@@ -21,14 +21,14 @@
                             <h3>Glimpse</h3>
                         </div>
                         <ul>
-                            <li><a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="img/instagram/ins-2.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="img/instagram/ins-3.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="img/instagram/ins-4.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="img/instagram/ins-5.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="img/instagram/ins-6.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="img/instagram/ins-7.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="img/instagram/ins-8.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('img/instagram/ins-1.jpg')}}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('img/instagram/ins-2.jpg')}}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('img/instagram/ins-3.jpg')}}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('img/instagram/ins-4.jpg')}}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('img/instagram/ins-5.jpg')}}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('img/instagram/ins-6.jpg')}}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('img/instagram/ins-7.jpg')}}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('img/instagram/ins-8.jpg')}}" alt=""></a></li>
                         </ul>
                     </aside>
                 </div>
