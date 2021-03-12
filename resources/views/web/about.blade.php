@@ -35,7 +35,7 @@
                         <div class="l_title">
                             <img src="img/icon/title-icon.png" alt="">
                             <h6>Discover the features</h6>
-                            <h2>We don’t hide, we stand tall in front of chalenge</h2>
+                            <h2>We don’t hide, we stand tall in front of challenge</h2>
                         </div>
                         <p>Mighty Magic Digital Pvt. Ltd. is the entertaining platform build in India. Our main hosting is being done from Ahmedabad, Gujarat. Introducing new talent is the idea of our company. Mighty Magic invites developed, semi- develop and row- develop projects from you people linked with entertainment field.
 

@@ -154,11 +154,16 @@
 
                             We offer diverse package options for different companies that suit their needs. Retainership will help you to reduce your overall cost and an ease in maintaining a unique and same level quality. Service period for retainership ranges from 6 months to 12 months. </p> <br>
                         </div>
+                        <div>
+                            <button type="button" class="btn btn-secondary submit_btn" data-toggle="modal" data-target="#exampleModal">Get A Quote</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--================End Service Solution Area =================-->
+        <!--================End Service Solution Area 155 =================-->
+
+        @include('template.web-inc.modal-quote')
 
 @endsection
 
