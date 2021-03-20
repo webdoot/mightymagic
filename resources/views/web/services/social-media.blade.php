@@ -1,4 +1,4 @@
-@extends('template.tmpl-web')
+@extends('layouts.tmpl-web')
 
 @section('title', 'Social Media Marketing ')
 

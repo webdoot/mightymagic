@@ -1,8 +1,54 @@
-@extends('template.tmpl-web')
+@extends('layouts.tmpl-web')
 
 @section('title', 'Services')
 
 @push('head')
+<style type="text/css">
+    .modal-dialog {
+        min-height: calc(100vh - 60px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: auto;
+    }
+    @media(max-width: 768px) {
+      .modal-dialog {
+        min-height: calc(100vh - 20px);
+      }
+    }
+
+    .modal-content{
+        /*background-image: url("{{ asset('img/banner/banner-bg.png') }}");*/
+        /*background-image: url("{{ asset('image/unnamed.png') }}");*/
+        background-image: url("{{ asset('image/modal-bg.png') }}");
+        /*background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);*/
+        border: 6px solid rgba(150, 178, 243);
+        background-repeat: no-repeat;
+        border-radius: 50px;
+    }
+
+    .modal-content input {
+        background-color: rgba(255, 255, 255, 0.5);
+        height: 52px;
+        border-radius: 25px;
+        padding: 0px 30px;
+        font-size: 12px;
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        color: #9b9b9b;
+    }
+
+    .modal-header {
+        border-bottom: 6px solid rgba(150, 178, 243);
+    }
+    .modal-header h5{
+        color: #103042;
+    }
+
+    .f_icon img {
+        opacity: .5;
+    }
+</style>
 @endpush
 
 @section('content')
@@ -25,61 +71,60 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <img src="img/icon/f-icon-1.png" alt="">
+                                <img src="{{ asset('image/icons-1/5.png')}}" alt="">
                             </div>
-                            <h4>Film Making and OTT Platform</h4>
-                            <p>Film lets us speak in fresh and exciting ways. No matter our message, film will express it with clarity and creativity. Film, also called as motion picture, a visual art form used to simulate experiences that communicate ideas, stories, perceptions, feelings, beauty or atmosphere through the use of moving images. </p>
+                            <h4>Film & OTT Platform</h4>
+                            <p>Film lets us speak in fresh and exciting ways. No matter our message, film will express it with clarity and creativity. Film, also called as motion picture, a visual art form used to simulate experiences that communicate ideas, stories, perceptions, feelings, beauty or atmosphere through the use of moving images... </p>
                             <a class="more_btn" href="{{route('service.ott')}}">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <img src="img/icon/f-icon-2.png" alt="">
+                                <img src="{{ asset('image/icons-1/1.png')}}" alt="">
                             </div>
                             <h4>Brand Identity</h4>
-                            <p>Graphic design is all around you. A design with unique message which gives desired result from that message. The message may be providing information ,invoke thoughts or even stimulates meaningful conversation. It’s about expressing an idea in the best way using visual story telling. </p>
+                            <p>Graphic design is all around you. A design with unique message which gives desired result from that message. The message may be providing information ,invoke thoughts or even stimulates meaningful conversation. It’s about expressing an idea in the best way using visual story telling... </p>
                             <a class="more_btn" href="{{route('service.brand')}}">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <img src="img/icon/f-icon-3.png" alt="">
+                                <img src="{{ asset('image/icons-1/4.png')}}" alt="">
                             </div>
                             <h4>Web Solutions </h4>
-                            <p>A website gives you platform to serve your clients better. It almost removes the mark of questions from viewer’s mind. An attractive, usable, accessible and designed website provides the best possible experience to the users. Mighty Magic is ready to serve you all web services, like web development, web streaming solution. </p>
+                            <p>A website gives you platform to serve your clients better. It almost removes the mark of questions from viewer’s mind. An attractive, usable, accessible and designed website provides the best possible experience to the users. Mighty Magic is ready to serve you all web services, like web development, web streaming solution... </p>
                             <a class="more_btn" href="{{route('service.web')}}">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <img src="img/icon/f-icon-4.png" alt="">
+                                <img src="{{ asset('image/icons-1/2.png')}}" alt="">
                             </div>
-                            <h4>Corporate Films & Professional Photography </h4>
-                            <p>Corporate films and videos can have a host of applications, whether you want to produce a video for training and motivating employees or whether you would like to highlight the benefits of your products / services while presenting your company's strengths. Whatever your requirements are, we can create powerful and lasting films that will remain with the target audience. 
-                            Without Photography the world of advertising does not exist. The world witnessed the boom of professional photography services in every of life. Business houses cannot sell their wares. </p>
+                            <h4>Corporate Films & Photography </h4>
+                            <p>Corporate films and videos can have a host of applications, whether you want to produce a video for training and motivating employees or whether you would like to highlight the benefits of your products / services while presenting your company's strengths. Whatever your requirements are, we can create powerful and lasting films that will remain with the target audience... </p>
                             <a class="more_btn" href="{{route('service.corporate')}}">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <img src="img/icon/f-icon-5.png" alt="">
+                                <img src="{{ asset('image/icons-1/8.png')}}" alt="">
                             </div>
                             <h4>Print & Production </h4>
-                            <p>Our printing and production service comprise of experienced in the printing domain.</p>
+                            <p>Print materials are an important part of your business's marketing collateral; they're the footprint that your business leaves behind. From brochures and business cards, to private label water bottles and velvet presentation folders, we have the ability to design and produce almost any branded print material for you and your team...</p>
                             <a class="more_btn" href="{{route('service.print')}}">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <img src="img/icon/f-icon-6.png" alt="">
+                                <img src="{{ asset('image/icons-1/3.png')}}" alt="">
                             </div>
                             <h4>Social Media Marketing  </h4>
-                            <p>Social media is where many of your customers spend their leisure time. Facebook, Instagram, LinkedIn and other networking platforms provide wonderful opportunities for businesses to reach their ideal audience at the right time. You can use it to understand your customer’s needs, attract new  customers and help drive traffic to your website.</p>
+                            <p>Social media is where many of your customers spend their leisure time. Facebook, Instagram, LinkedIn and other networking platforms provide wonderful opportunities for businesses to reach their ideal audience at the right time. You can use it to understand your customer’s needs...</p>
                             <a class="more_btn" href="{{route('service.social')}}">Read More</a>
                         </div>
                     </div>
@@ -155,7 +200,7 @@
                             We offer diverse package options for different companies that suit their needs. Retainership will help you to reduce your overall cost and an ease in maintaining a unique and same level quality. Service period for retainership ranges from 6 months to 12 months. </p> <br>
                         </div>
                         <div>
-                            <button type="button" class="btn btn-secondary submit_btn" data-toggle="modal" data-target="#exampleModal">Get A Quote</button>
+                            <button type="button" class="btn btn-secondary submit_btn" data-toggle="modal" data-target="#quote">Get A Quote</button>
                         </div>
                     </div>
                 </div>
@@ -163,7 +208,7 @@
         </section>
         <!--================End Service Solution Area 155 =================-->
 
-        @include('template.web-inc.modal-quote')
+        @include('layouts.web-inc.modal-quote')
 
 @endsection
 

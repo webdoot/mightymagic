@@ -19,15 +19,16 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li class="nav-item"><a class="nav-link" href="{{route('service')}}">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{route('service.ott')}}">Film Making and OTT Platform</a></li>                        
+                        <li class="nav-item"><a class="nav-link" href="{{route('service.ott')}}">Film & OTT Platform</a></li>                        
                         <li class="nav-item"><a class="nav-link" href="{{route('service.brand')}}">Brand Identity</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{route('service.web')}}">Web Solutions</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{route('service.corporate')}}">Corporate Films & Professional Photography</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('service.corporate')}}">Corporate Films & Photography</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{route('service.print')}}">Print & Production</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{route('service.social')}}">Social Media Marketing</a></li>
                     </ul>
                 </li>
                 <li class="nav-item {{ (request()->is('portfolio')) ? 'active' : '' }}"><a class="nav-link" href="{{route('portfolio')}}">Portfolio</a></li>                
+                <li class="nav-item {{ (request()->is('workwith')) ? 'active' : '' }}"><a class="nav-link" href="{{route('workwith')}}">Work With Us</a></li>
                 <li class="nav-item {{ (request()->is('contact')) ? 'active' : '' }}"><a class="nav-link" href="{{route('contact')}}">Reach Us</a></li>
             </ul>
         </div>

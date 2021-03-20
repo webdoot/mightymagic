@@ -1,4 +1,4 @@
-@extends('template.tmpl-web')
+@extends('layouts.tmpl-web')
 
 @section('title', 'Contact')
 
@@ -32,7 +32,7 @@
         </section>
         <!--================End Banner Area =================-->       
 
-        @include('template.web-inc.get-in-touch')
+        @include('layouts.web-inc.get-in-touch')
         
         <!--================Map Area =================-->       
         <section style="border: 6px solid rgba(204, 241, 255, 0.5);">

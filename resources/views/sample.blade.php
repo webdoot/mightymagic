@@ -1,4 +1,4 @@
-@extends('template.tmpl-admin')
+@extends('layouts.tmpl-admin')
 
 @section('title', 'Sample')
 

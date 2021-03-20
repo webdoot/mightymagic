@@ -52,6 +52,13 @@
         color: #E51A4B;
     }
 
+    .main_menu_area 
+    .navbar .navbar-nav 
+    li.submenu .dropdown-menu {
+      left: -106px;
+      min-width: 310px;
+    }
+
     .f_about_widget img {
       padding: 0px;
       margin-bottom: 25px;
@@ -79,11 +86,11 @@
 </head>
 <body>
   
-  @include('template.web-inc.header')
+  @include('layouts.web-inc.header')
 
   @yield('content')
 
-  @include('template.web-inc.footer')  
+  @include('layouts.web-inc.footer')  
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>

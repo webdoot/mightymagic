@@ -6,7 +6,7 @@
             <div class="bd-callout">
                 <h3>Gibraltar Office</h3>
                 <p>Casemates Square, no253 <br /> United kingdom</p>
-                <h4><a href="#">+453678 9283 559</a> <a href="#">contact@template.com</a></h4>
+                <h4><a href="#">+453678 9283 559</a> <a href="#">contact@layouts.com</a></h4>
             </div>
         </div>
     </div>

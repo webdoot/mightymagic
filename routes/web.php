@@ -31,6 +31,7 @@ Route::group(['middleware' => ['web']], function(){
 
 	Route::get('portfolio', 'Web\HomeController@portfolio')->name('portfolio');
 	Route::get('contact', 'Web\HomeController@contact')->name('contact');
+	Route::get('work-with-us', 'Web\HomeController@workWith')->name('workwith');
 
 	Route::get('dashboard', 'DashboardController@adminIndex')->name('dashboard.admin');
 	

@@ -22,9 +22,9 @@
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
   
-  @include('template.admin-inc.top-navbar')
+  @include('layouts.admin-inc.top-navbar')
 
-  @include('template.admin-inc.side-navbar')
+  @include('layouts.admin-inc.side-navbar')
 
   @yield('content')
 
@@ -36,7 +36,7 @@
   </aside>
   <!-- /.control-sidebar -->
 
-  @include('template.admin-inc.footer')
+  @include('layouts.admin-inc.footer')
   
 </div>
 <!-- ./wrapper -->

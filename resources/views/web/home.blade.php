@@ -1,4 +1,4 @@
-@extends('template.tmpl-web')
+@extends('layouts.tmpl-web')
 
 @section('title', 'Home')
 
@@ -170,16 +170,28 @@
 		    padding: 10% 20%;
 		}
 	}
+
+	.clientele {
+		margin-top: 115px;
+	}
+
+	.clientele img {
+		width: 85%;
+	}
+
+	.text_3d {
+		padding-top: 60px;
+	}
 </style>
 @endpush
 
 @section('content')
 
-      @include('template.web-inc.slider')
+      @include('layouts.web-inc.slider')
 
-      @include('template.web-inc.best-slider')
+      @include('layouts.web-inc.best-slider')
 
-      @include('template.web-inc.achievment')
+      @include('layouts.web-inc.achievment')
 
 @endsection
 

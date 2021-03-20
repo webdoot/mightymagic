@@ -1,4 +1,4 @@
-@extends('template.tmpl-web')
+@extends('layouts.tmpl-web')
 
 @section('title', 'About')
 
@@ -47,11 +47,6 @@
                         </div> -->
                     </div>
                 </div>
-                <!-- <div class="col-lg-6 challange_img">
-                    <div class="challange_img_inner">
-                        <img class="img-fluid" src="img/popup-photo.jpg" alt="">
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
@@ -77,7 +72,7 @@
                         <div class="our_skill_inner">
                             <div class="single_skill">
                                 <h3>Film Making & OTT Platform</h3>
-                                <div class="progress" data-value="70">
+                                <div class="progress" data-value="90">
                                     <div class="progress-bar">
                                         <div class="progress_parcent"><span class="counter">90</span>%</div>
                                     </div>
@@ -109,7 +104,7 @@
                             </div>
                             <div class="single_skill">
                                 <h3>Illustrator </h3>
-                                <div class="progress" data-value="75">
+                                <div class="progress" data-value="80">
                                     <div class="progress-bar">
                                         <div class="progress_parcent"><span class="counter">80</span>%</div>
                                     </div>
@@ -123,7 +118,7 @@
     </section>
     <!--================End We Are Company Area =================-->
     
-    @include('template.web-inc.team-people')
+    @include('layouts.web-inc.team-people')
 
 @endsection
 

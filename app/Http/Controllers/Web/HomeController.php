@@ -32,4 +32,9 @@ class HomeController extends Controller
     	return view('web.contact');
     }
 
+    public function workWith()
+    {
+        return view('web.work-with');
+    }
+
 }

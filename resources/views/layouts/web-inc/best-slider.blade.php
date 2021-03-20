@@ -1,12 +1,12 @@
 <!--================The best slider Area =================-->
-<section class="best_3d_area">
+<section class="best_3d_area" style="transition-delay: 2s">
     <div class="left_3d">
         <div class="shap_slider_inner owl-carousel">
             <div class="item">
                 <h4>“They are the best”</h4>
                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
                 <div class="media">
-                    <img src="img/team/people/people-5.jpg" alt="">
+                    <img src="{{ asset('img/team/people/people-5.jpg')}}" alt="">
                     <div class="media-body">
                         <h5>Chriss Turner</h5>
                         <h6>CEO Enterprise</h6>
@@ -17,7 +17,7 @@
                 <h4>“They are the best”</h4>
                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
                 <div class="media">
-                    <img src="img/team/people/people-5.jpg" alt="">
+                    <img src="{{ asset('img/team/people/people-5.jpg')}}" alt="">
                     <div class="media-body">
                         <h5>Chriss Turner</h5>
                         <h6>CEO Enterprise</h6>
@@ -28,7 +28,7 @@
                 <h4>“They are the best”</h4>
                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
                 <div class="media">
-                    <img src="img/team/people/people-5.jpg" alt="">
+                    <img src="{{ asset('img/team/people/people-5.jpg')}}" alt="">
                     <div class="media-body">
                         <h5>Chriss Turner</h5>
                         <h6>CEO Enterprise</h6>
@@ -41,14 +41,12 @@
         <div class="right_text_inner">
             <div class="text_3d">
                 <div class="l_title">
-                    <img src="img/icon/title-icon.png" alt="">
-                    <h6>Discover the features</h6>
-                    <h2>We don’t hide, we stand tall in front of chalenge</h2>
-                </div>
-                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum. Nam convallis vel erat id dictum. Sed ut risus in orci convallis viverra a eget nisi. Aenean pellentesque elit vitae eros dignissim ultrices. </p>
+                    <img src="{{ asset('img/icon/title-icon.png')}}" alt="">
+                    <h2>Our Clientele</h2>
+                </div>                        
             </div>
-            <div class="shap_mobile">
-                <img src="img/iphone4.png" alt="">
+            <div class="clientele">
+                <img src="{{ asset('image/clientel-1.jpg')}}" loading="lazy" class="rounded mx-auto d-block" alt="">
             </div>
         </div>
     </div>

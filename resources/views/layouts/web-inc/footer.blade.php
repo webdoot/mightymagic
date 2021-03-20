@@ -38,7 +38,7 @@
                             <h3>Subscribe to newsletter</h3>
                         </div>
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Your e-mail address here" aria-label="Your e-mail address here">
+                            <input type="text" class="form-control" placeholder="Your e-mail address here" aria-label="Your e-mail address here" style="border-radius: 25px">
                             <span class="input-group-btn">
                                 <button class="btn btn-secondary submit_btn" type="button">Subscribe</button>
                             </span>
