@@ -44,24 +44,9 @@
                     <img src="{{ asset('img/icon/title-icon.png')}}" alt="">
                     <h2>Our Clientele</h2>
                 </div>                        
-            </div>            
-
-            <div class="client-box owl-carousel">
-                <div class="item">                    
-                    <div class="media">
-                        <img src="{{ asset('image/client-1/slide-1.jpg')}}" alt="">
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="media">
-                        <img src="{{ asset('image/client-1/slide-2.jpg')}}" alt="">
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="media">
-                        <img src="{{ asset('image/client-1/slide-3.jpg')}}" alt="">
-                    </div>
-                </div>
+            </div>
+            <div class="clientele">
+                <img src="{{ asset('image/clientel-1.jpg')}}" loading="lazy" class="rounded mx-auto d-block" alt="">
             </div>
         </div>
     </div>

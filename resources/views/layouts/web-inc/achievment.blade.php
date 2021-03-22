@@ -15,7 +15,7 @@
             <div class="col-lg-6">
                 <div class="team_img_inner">
                     <div class="row mileston_block">
-                        <div class="col-md-6 mileston_block_1">
+                        <div class="col-md-6">
                             <div class="mileston_item">
                                 <div class="counter-icon">
                                     <img src="image/project-1.png" alt="">   
@@ -32,7 +32,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 mileston_block_3">
-                            <div class="mileston_item">
+                            <div class="mileston_item_r">
                                 <div class="counter-icon">
                                     <img src="image/idea-1.png" alt="">   
                                 </div>                                                             

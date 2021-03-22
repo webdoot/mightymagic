@@ -9,21 +9,67 @@
 	}
 
 	.mileston_item {
-	    background-color: blueviolet;
-	    /*background: #79ccff;
-		background: -moz-linear-gradient(left, #79ccff 0%, #9b75ff 100%);
-		background: -webkit-linear-gradient(left, #79ccff 0%, #9b75ff 100%);*/
-		border-radius: 10px;
+		background-image: url('./img/3d-shap.png'); 
+		height: 360px; 
+		background-position: center; 
+		background-repeat: no-repeat; 
+		background-size: contain;
+		margin-bottom: 40px;
 	}
 
-	.mileston_item h4 {
+	.mileston_item_r {
+		background-image: url('./img/3d-shap-1.png'); 
+		height: 360px; 
+		background-position: center; 
+		background-repeat: no-repeat; 
+		background-size: contain;
+	}
+
+	.mileston_item h4,
+	.mileston_item_r h4 {
 		text-align: center;
-		font-size: 60px;
+		font-size: 60px;		
+		-webkit-text-fill-color: initial;
+		color: #fff;
+		margin-left: -20px;
+		width: 400px;
+	}
+
+	.mileston_item h5,
+	.mileston_item_r h5 {
+		color: white;
+		font-size: 20px;
 	}
 
 	.mileston_item h5 {
-		text-align: center;
-		color: white;
+		margin-left: 85px;
+	}
+
+	.mileston_item_r h5 {
+		margin-left: 132px;
+	}
+
+	.mileston_item img,
+	.mileston_item_r img {
+		max-width: 120px;
+	}
+
+	.mileston_block_3 {
+		margin-top: 216px;
+		margin-left: -5%;
+	}
+
+	.team_img_inner {
+		margin-left: 0;
+		max-width: inherit;
+		margin-bottom: 0;
+		max-width: initial;
+		margin-top: -80px;
+	}
+
+	.team_img_inner .row {
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.counter-icon{
@@ -36,165 +82,259 @@
 		transition: transform .3s cubic-bezier(.21,.6,.44,2.18);
 	}
 
-	@media (min-width: 1521px){ 
-		.mileston_block {
-			margin-top: -45px;
-		}
-		.mileston_item {
-			/*margin: 12px;*/
-			margin: 5%;
-			/*padding: 20px 66px;*/
-		    padding: 10% 23%;
-		}
+	.mileston_item .counter-icon {
+		margin-top: 62px;
+		margin-left: 68px;
+	}
 
-		.mileston_item img {
-			max-width: 120px;
-		}
+	.mileston_item_r .counter-icon {
+		padding-top: 55px;
+		margin-left: 49%;
+	}
 
-		.mileston_item h4 {
-			font-size: 60px;
+	@media (max-width: 1521px){ 
+		.team_img_inner {
+			margin-top: 40px;
 		}
 
 		.mileston_block_3 {
-			margin-top: 136px;
-			margin-left: -5%;
+		    margin-left: 0%;
 		}
 	}
 
-	@media (max-width: 1520px){ 
-		.mileston_block {
-			margin-top: -45px;
-		}
-		.mileston_item {
-			margin: 5%;
-			/*margin-top: 24px;*/
-		    /*padding: 20px 30px;*/
-		    padding: 10% 23%;
-		}
-		.mileston_item img {
-			max-width: 100px;
-		}
-
-		.mileston_item h4 {
-			font-size: 55px;
+	@media (max-width: 1230px){ 
+		.team_people_area {
+		    padding-top: 400px;
 		}
 
 		.mileston_block_3 {
-			margin-top: 136px;
-			margin-left: -5%;
+		    margin-left: -5%;
 		}
 	}
 
 	@media (max-width: 1199px){ 
-		.mileston_block {
-			margin-top: -45px;
-		}
-		.mileston_item {
-			/*margin-top: 12px;*/
-		    /*padding: 18px 20px;*/
-		    margin: 5%;
-		    padding: 10% 20%;
-		}
-		.mileston_item img {
-			max-width: 90px;
-		}
+		
 
-		.mileston_item h4 {
-			font-size: 48px;
-		}
-
-		.mileston_block_3 {
-			margin-top: 136px;
-			margin-left: -5%;
-		}
 	}
 
 	@media (max-width: 991px){ 
-		.mileston_block {
-			margin-top: -10px;
-		}
-		.mileston_item {
-			/*margin-top: 24px;*/
-		    /*padding: 20px 66px;*/
- 			margin: 5%;
-		    padding: 10% 25%;
-		}
-		.mileston_item img {
-			max-width: 120px;
+		.team_img_inner {
+		    padding-left: 10%;
+		    padding-right: 10%;
 		}
 
-		.mileston_item h4 {
-			font-size: 60px;
+		.mileston_item_r h4 {
+			text-align: initial;
+			padding-left: 50%;
+
 		}
 
-		.mileston_block_1 {
-			text-align: center;
+		.mileston_item_r h5 {
+		    margin-left: 34%;
 		}
 
-		.mileston_block_3 {
-			margin-top: 136px;
-			margin-left: -5%;
-		}
 	}
 
 	@media (max-width: 767px){ 
 		.mileston_block {
-			margin-top: -10px;
-		}
-		.mileston_item {
-			/*margin-top: 24px;*/
-		    /*padding: 20px 66px;*/
-		    margin: 2%;
-		    padding: 10% 35%;
-		}
-		.mileston_item img {
-			max-width: 130px;
-		}
-
-		.mileston_item h4 {
-			font-size: 60px;
+			text-align: center;
 		}
 
 		.mileston_block_3 {
-			margin-top: 1%;
-			margin-left: 0;
-			text-align: center;
+			margin-top: -46px;
+		    margin-left: 0%;
 		}
+
+		.mileston_item .counter-icon {
+		    margin-top: 62px;
+			margin-left: 68px;
+		}
+
+		.mileston_item_r .counter-icon {
+		    margin-left: 24%;
+		}
+
+		.mileston_item_r h4 {
+			text-align: initial;
+			padding-left: 50%;
+
+		}
+
+		.mileston_item_r h5 {
+		    margin-left: 10%;
+		}		
+
 	}	
 
+	@media (max-width: 575px){ 
+		.team_img_inner {
+		    padding-left: 0;
+		    padding-right: 0;
+		}
+		.mileston_item .counter-icon {
+		    margin-left: -142px;
+		}
+		.mileston_block_3 {
+		    margin-top: 0px;
+		}
+
+		.mileston_item h5 {
+		    margin-left: -48px;
+		}
+	}
+
 	@media (max-width: 480px){ 
-		.mileston_item {
-			/*margin-top: 24px;*/
-		    /*padding: 20px 66px;*/
-		    margin: 2%;
-		    padding: 10% 20%;
+		.mileston_block_3 {
+		    margin-top: 0px;
 		}
 	}
 
 	.clientele {
-		margin-top: 115px;
+		position: absolute;
+		margin-top: 250px;
+		margin-left: 50px;
+		padding-left: 76px;
+		max-width: 53%;
+		background: #7699F5;
+		padding: 20px;
+	}
+
+	.right_text {
+		margin-top: 100px;		
 	}
 
 	.clientele img {
-		width: 85%;
+		/*width: 85%;*/		
 	}
 
 	.text_3d {
 		padding-top: 60px;
 	}
+
+	/* Clientele area */
+	.testimonials_area {
+	    border-bottom: none;
+	    padding-top: 130px;
+	    padding-bottom: 0;
+	}
+
+	.client_area {
+		padding-bottom: 30px;
+		background-color: #96B2F3;
+	}	
+
+	.client-box {
+		position: absolute;
+		margin-top: 236px;
+		max-width: 800px;
+		margin-left: 50px;
+		padding: 24px 24px 8px 24px;
+	}
+
+	.client-box .owl-dots {
+	    text-align: center;
+	}
+	.client-box .owl-dots .owl-dot.active {
+	    background: #97ccfe;
+	}
+	.client-box .owl-dots .owl-dot {
+	    height: 6px;
+	    width: 6px;
+	    border-radius: 50%;
+	    background: #fff;
+	    display: inline-block;
+	    margin-right: 10px;
+	}
+
+	@media (max-width: 1520px){ 
+		.right_text {
+			margin-top: 0;		
+		}
+
+		.client-box {
+			max-width: 750px;
+		}
+	}
+
+	@media (max-width: 1199px){ 
+		.right_text {
+			margin-top: 0;		
+		}
+
+		.client-box {
+			max-width: 800px;
+		}
+
+		.team_people_area {
+		    padding-top: 495px;
+		}
+	}
+
+	@media (max-width: 991px){ 
+		.right_text {
+			margin-top: 0;		
+		}
+
+		.client-box {
+			max-width: 800px;
+		}
+
+		.team_people_area {
+		    padding-top: 495px;
+		}
+
+		.testimonials_area {
+		    padding-top: 60px;
+		}
+
+		.testimonials_slider .owl-item.center h3,
+		.testimonials_slider .owl-item.center p {
+		    color: #0b1033;
+		}
+
+	}
+
+	@media (max-width: 480px){ 
+		.testimonials_area {
+		    padding-top: 60px;
+		}
+	}	
+
+
 </style>
 @endpush
 
 @section('content')
 
-      @include('layouts.web-inc.slider')
+  	@include('layouts.web-inc.slider')
 
-      @include('layouts.web-inc.best-slider')
+  	@include('layouts.web-inc.best-slider')
 
-      @include('layouts.web-inc.achievment')
+  	@include('layouts.web-inc.achievment')
 
 @endsection
 
 
 @push('footer')
+
+<script type="text/javascript">
+
+    function shap_carousel1(){
+        if ( $('.client-box').length ){
+            $('.client-box').owlCarousel({
+                loop:true,
+                margin: 0,
+                items: 1,
+                nav:false,
+                autoplay: true,
+                smartSpeed: 1500,
+                dots:true,
+                center: true
+            })
+        }
+    }
+    shap_carousel1();
+
+</script>
+
 @endpush

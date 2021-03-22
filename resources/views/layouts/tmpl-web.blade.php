@@ -81,6 +81,16 @@
       font-size: 14px;
       text-align: center;
     }
+
+    .f_title h3 {
+      font-size: 20px;
+      color: #1D3F59;
+      font-weight: 600;
+    }
+
+    .f_title {
+      padding-bottom: 40px;
+    }
   </style>
 
 </head>

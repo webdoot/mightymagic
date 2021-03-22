@@ -84,7 +84,7 @@
                                 <img src="{{ asset('image/icons-1/1.png')}}" alt="">
                             </div>
                             <h4>Brand Identity</h4>
-                            <p>Graphic design is all around you. A design with unique message which gives desired result from that message. The message may be providing information ,invoke thoughts or even stimulates meaningful conversation. It’s about expressing an idea in the best way using visual story telling... </p>
+                            <p>Graphic design is all around you. A design with unique message which gives desired result from that message. The message may be providing information, invoke thoughts or even stimulates meaningful conversation to the viewers. It’s about expressing an idea in the best way using visual story telling... </p>
                             <a class="more_btn" href="{{route('service.brand')}}">Read More</a>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                                 <img src="{{ asset('image/icons-1/4.png')}}" alt="">
                             </div>
                             <h4>Web Solutions </h4>
-                            <p>A website gives you platform to serve your clients better. It almost removes the mark of questions from viewer’s mind. An attractive, usable, accessible and designed website provides the best possible experience to the users. Mighty Magic is ready to serve you all web services, like web development, web streaming solution... </p>
+                            <p>A website gives you platform to serve your clients better. It almost removes the mark of questions from viewer’s mind. An attractive website provides the best possible experience to the users. Mighty Magic is ready to serve you all web services, like web development, web streaming solution... </p>
                             <a class="more_btn" href="{{route('service.web')}}">Read More</a>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                                 <img src="{{ asset('image/icons-1/2.png')}}" alt="">
                             </div>
                             <h4>Corporate Films & Photography </h4>
-                            <p>Corporate films and videos can have a host of applications, whether you want to produce a video for training and motivating employees or whether you would like to highlight the benefits of your products / services while presenting your company's strengths. Whatever your requirements are, we can create powerful and lasting films that will remain with the target audience... </p>
+                            <p>Corporate films and videos can have a host of applications, whether you want to produce a video for training and motivating employees or whether you would like to highlight the benefits of your products & services while presenting your company's strengths. We can create powerful and lasting films that will remain with the target audience... </p>
                             <a class="more_btn" href="{{route('service.corporate')}}">Read More</a>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                                 <img src="{{ asset('image/icons-1/3.png')}}" alt="">
                             </div>
                             <h4>Social Media Marketing  </h4>
-                            <p>Social media is where many of your customers spend their leisure time. Facebook, Instagram, LinkedIn and other networking platforms provide wonderful opportunities for businesses to reach their ideal audience at the right time. You can use it to understand your customer’s needs...</p>
+                            <p>Social media is where many of your customers spend their leisure time. Facebook, Instagram, LinkedIn and other networking platforms provide wonderful opportunities for businesses to reach their ideal audience at the right time. You can use it to understand your the needs attract new  customers and help drive traffic to your website...</p>
                             <a class="more_btn" href="{{route('service.social')}}">Read More</a>
                         </div>
                     </div>
