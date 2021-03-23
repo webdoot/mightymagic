@@ -8,6 +8,10 @@
       height: 74px;
     }
 
+    .error {
+      color: #E51A4B;
+    }
+
     .touch_details i {
       width: 30px;
       background-color: #7c8d93;
@@ -32,7 +36,7 @@
         </section>
         <!--================End Banner Area =================-->       
 
-        @include('layouts.web-inc.get-in-touch')
+        @include('layouts.web-inc.contact')
         
         <!--================Map Area =================-->       
         <section style="border: 6px solid rgba(204, 241, 255, 0.5);">
@@ -44,5 +48,9 @@
 
 
 @push('footer')
+
+<script src="{{ asset('js/jquery.form.js') }}"></script>
+<script src="{{ asset('js/jquery.validate.min.js') }}"></script>
+<script src="{{ asset('js/contact.js') }}"></script>
 
 @endpush
