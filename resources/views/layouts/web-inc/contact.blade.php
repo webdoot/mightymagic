@@ -28,10 +28,15 @@
                         <h6>Say hello</h6>
                         <!-- <h2>Get in touch with us</h2> -->
                     </div>
-                    <p><i class="fa fa-bank"></i> &nbsp; 2A, S.N.HOUSE, Opp. Rock Regency Hotel, C.G.Road, Ahmedabad- 380006, India.</p>
-                    <p><i class="fa fa-envelope"></i> &nbsp; biz@mightymagicdigital.com, marketing@mightymagicdigital.com</p>
-                    <a href="#"><h5>Call us now</h5></a>
-                    <a href="#"><h4>+91-98256 45677</h4></a>
+                    <p><i class="fa fa-bank"></i> &nbsp; 2A, S.N.HOUSE, Opp. Rock Regency Hotel, C.G.Road, <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ahmedabad- 380006, India.</p>
+
+                    <p><i class="fa fa-envelope"></i> &nbsp; biz@mightymagicdigital.com, <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; marketing@mightymagicdigital.com</p>
+
+                    <p><i class="fa fa-phone"></i> &nbsp; +91 98256 45677 </p>
+
+
+                    <!-- <a href="#"><h5>Call us now</h5></a>
+                    <a href="#"><h4>+91-98256 45677</h4></a> -->
                 </div>
             </div>
         </div>

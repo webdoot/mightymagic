@@ -24,10 +24,12 @@
                 <div class="portfolio_filter">
                     <ul>
                         <li class="active" data-filter="*"><a href="#">All</a></li>
+                        <li data-filter=".brand"><a href="#">Film & OTT Platform </a></li>
                         <li data-filter=".brand"><a href="#">Brand identity</a></li>
-                        <li data-filter=".design"><a href="#">Social Media Marketing </a></li>
-                        <li data-filter=".arc"><a href="#">Corporate Films & Web series </a></li>
-                        <li data-filter=".photo"><a href="#">Photography</a></li>
+                        <li data-filter=".design"><a href="#">Web Solution </a></li>
+                        <li data-filter=".arc"><a href="#">Corporate Films & Photography </a></li>
+                        <li data-filter=".photo"><a href="#">Print & Production</a></li>
+                        <li data-filter=".photo"><a href="#">Motion Pictures</a></li>
                     </ul>
                 </div>
             </div>

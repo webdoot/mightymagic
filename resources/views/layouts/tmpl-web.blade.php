@@ -36,6 +36,21 @@
   @stack('head')
 
   <style type="text/css">
+
+    @font-face {
+      font-family: vagrounde;
+      src: url(./fonts/VAGRoundedBT.ttf);
+      font-weight: 300;
+    }
+
+    .tp-caption, .contacus-txt h2, .contacus-txt p {
+      font-family: vagrounde;
+    }
+
+    /*div {
+      font-family: myFirstFont;
+    }*/
+
     .navbar-brand img {
       max-width: 95px;
       height: auto;

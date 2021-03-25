@@ -34,8 +34,7 @@
                     <div class="challange_text_inner">
                         <div class="l_title">
                             <img src="img/icon/title-icon.png" alt="">
-                            <h6>Discover the features</h6>
-                            <h2>We don’t hide, we stand tall in front of challenge</h2>
+                            <h2>Your Vision Your Message</h2>
                         </div>
                         <p>Mighty Magic Digital Pvt. Ltd. is the entertaining platform build in India. Our main hosting is being done from Ahmedabad, Gujarat. Introducing new talent is the idea of our company. Mighty Magic invites developed, semi- develop and row- develop projects from you people linked with entertainment field.
 
@@ -60,8 +59,7 @@
                     <div class="left_company_text">
                         <div class="l_title">
                             <img src="img/icon/title-icon.png" alt="">
-                            <!-- <h6>Discover the features</h6> -->
-                            <!-- <h2>We are a <span>Gibraltar</span> based Company</h2> -->
+                            <h2>We don’t hide, we stand tall in front of challenge</h2>
                         </div>
                         <p style="text-align: justify; margin-top: -48px;">We are one of the best in the industry for our wide range of design & execution services. The Name Mighty Magic Digital stands for creativity, conceptualization, and execution of projects. We tailor a one-stop solution for the range of services that are made as per your requirements in all aspects in the areas such as Web solutions, Graphics designing, Web Series and Serials. If you are planning to create a concise, hard-hitting videos for social media channels, brand-boosting corporate piece, advertisements, documentary film, web-series or short-feature film, we are here to guide you at every step of the way. </p>
                     </div>
