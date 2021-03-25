@@ -47,9 +47,10 @@
       font-family: vagrounde;
     }
 
-    /*div {
-      font-family: myFirstFont;
-    }*/
+   
+    #brand-logo {
+      max-width: 120px;
+    }
 
     .navbar-brand img {
       max-width: 95px;
