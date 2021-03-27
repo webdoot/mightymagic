@@ -1,7 +1,7 @@
 <!-- ================Team People Area =================-->
 <section class="team_people_area">
     <div class="container-fluid">
-        <div class="row" style="padding-bottom: 100px">
+        <div class="row">
             <div class="col-lg-6">
                 <div class="team_people_text">
                     <div class="l_title">

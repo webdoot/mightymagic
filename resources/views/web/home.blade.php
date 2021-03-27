@@ -23,8 +23,15 @@
 		position: absolute;
 		top: 310px;
 		/*left: 203px;*/
-		left: 20%;
+		left: 19%;
 		opacity: 1;
+		padding-left: 8px;
+		z-index: 99;
+		text-align: center;
+	}
+
+	.slide-top p {
+		text-align: left;
 	}
 
 	@media (max-width: 1860px){
@@ -33,7 +40,13 @@
 		 }
 	}
 
-	@media (max-width: 1660px){
+	@media (max-width: 1680px){
+		 .slide-top {
+		 	left: 14%;
+		 }
+	}
+
+	@media (max-width: 1600px){
 		 .slide-top {
 		 	left: 13%;
 		 }
@@ -45,60 +58,78 @@
 		 }
 	}
 
+	@media (max-width: 1360px){
+		.slide-top {
+		 	left: 6%;
+		 }
+	}
+
 	@media (max-width: 991px){
 		.slide-top {
 			font-size: 38px;
-      		line-height: 46px;
+      		line-height: 1.2em;
 			top: 240px;
-		 	left: 9%;
+		 	left: 13%;
 		 }
 	}
 
 	@media (max-width: 860px){
 		.slide-top {
 			top: 240px;
-		 	left: 3%;
+		 	left: 7%;
 		 }
 	}
 
 	@media (max-width: 766px){
 		.slide-top {				
 			top: 240px;
-		 	left: 3%;
+		 	left: 5%;
 		 }
 	}
 
 	@media (max-width: 680px){
 		.slide-top {				
 			top: 48%;
+			left: 1%;
+		 }
+	}
+
+	@media (max-width: 650px){
+		.slide-top {				
+			line-height: 1.1em;
 		 }
 	}
 
 	@media (max-width: 580px){
 		.slide-top {
-			font-size: 1.5em;
-      		line-height: 1.5em;				
-			top: 48%;
+			font-size: 29px;
+      		line-height: 1.1em;				
+			top: 50%;
 		 }
 	}
 
 	@media (max-width: 479px){
 		.slide-top {
-			font-size: 1.6em;
-      		line-height: 1.6em;				
+			font-size: 29px;
+      		line-height: 1.1em;				
 			top: 35%;
 			left: 13%;
-			text-align: center;
+			position: relative;
+			left: initial;
 		 }
+
+		 .slide-top p {
+			text-align: center;
+		}
 	}	
 
 	/* Achievments */
 	.mileston_item {
-		background-image: url('./img/3d-shap.png');
+		background-image: url('../img/3d-shap.png');
 	}
 
 	.mileston_item_r {
-		background-image: url('./img/3d-shap-1.png');
+		background-image: url('../img/3d-shap-1.png');
 	}
 
 	.mileston_item, .mileston_item_r {
@@ -330,7 +361,34 @@
 		.team_people_area {
 		    padding-top: 290px;
 		}
-	}	
+	}
+
+	/* Upcoming project */
+	.challange_img_inner {
+		opacity: .8;
+	}
+
+	.challange_img .challange_img_inner {		
+		box-shadow: 0px 27px 68px 0px rgba(140, 154, 255);
+	}
+
+	.c_video {
+		z-index: 99;
+		position: absolute;
+		top: 154px;
+		left: 256px;
+	}
+
+	/* second */
+	.upcoming_bg {	
+	    background-image: -moz-linear-gradient(10deg, #6ebdfe 0%, #9b8aff 100%);
+	    background-image: -webkit-linear-gradient(10deg, #6ebdfe 0%, #9b8aff 100%);
+	    background-image: -ms-linear-gradient(10deg, #6ebdfe 0%, #9b8aff 100%);
+	}
+
+	.upcoming_p p {
+		color: #251a5b;
+	}
 
 </style>
 @endpush
@@ -342,6 +400,56 @@
   	@include('layouts.web-inc.best-slider')
 
   	@include('layouts.web-inc.achievment')
+
+  	<!-- ================ Upcoming projects =================-->
+	<section class="challange_area p_100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="challange_text_inner">
+                        <div class="l_title">
+                            <img src="img/icon/title-icon.png" alt="">
+                            <h2>Upcoming Projects</h2>
+                        </div>
+                        <p>Every company’s name is known by its work. So let’s have a look on videos related to Mighty Magic Digital’s creative ideas presented on reel with reality.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 challange_img">
+                    <div class="challange_img_inner">
+                        <img class="img-fluid" src="../img/trailer-1.jpg" alt="">
+                    </div>
+                    <div class="c_video">
+                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=LTXD6XZXc3U"><img src="../img/icon/video-icon.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="challange_area p_100 upcoming_bg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="challange_text_inner upcoming_p">
+                        <div class="l_title">
+                            <img src="img/icon/title-icon.png" alt="">
+                            <h2>Upcoming Projects</h2>
+                        </div>
+                        <p>Every company’s name is known by its work. So let’s have a look on videos related to Mighty Magic Digital’s creative ideas presented on reel with reality.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 challange_img">
+                    <div class="challange_img_inner upcoming_img">
+                        <img class="img-fluid" src="../img/trailer-1.jpg" alt="">
+                    </div>
+                    <div class="c_video">
+                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=LTXD6XZXc3U"><img src="../img/icon/video-icon.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!--================ Upcoming projects =================-->
 
 @endsection
 
