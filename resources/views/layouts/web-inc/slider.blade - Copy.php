@@ -21,21 +21,6 @@
                   data-textAlign="['left','left','left','left','left','center']">Portray your own story <br/> Nothing connects you to <br/> people like Films
                 </div>
                 
-                <div class="tp-caption tp-resizeme" 
-                  data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" 
-                  data-y="['top','top','top','top']" 
-                  data-voffset="['610','610','610','440','370','350']" 
-                  data-fontsize="['14','14','14','14']"
-                  data-lineheight="['46','46','46','46']"
-                  data-width="none"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-type="text" 
-                  data-responsive_offset="on" 
-                  data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
-                  <a class="more_btn" href="#">Discover</a>
-                </div>
-
                 <div class="tp-caption tp-resizeme single_img" 
                   data-x="['right','right','right','right','right','right']" 
                   data-hoffset="['0','0','0','0']" 
@@ -71,21 +56,6 @@
                   data-responsive_offset="on" 
                   data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                   data-textAlign="['left','left','left','left','left','center']">Portray your own story <br/>Nothing connects you to <br/> people like Graphics Designing 
-                </div>
-                
-                <div class="tp-caption tp-resizeme" 
-                  data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" 
-                  data-y="['top','top','top','top']" 
-                  data-voffset="['610','610','610','440','370','350']" 
-                  data-fontsize="['14','14','14','14']"
-                  data-lineheight="['46','46','46','46']"
-                  data-width="none"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-type="text" 
-                  data-responsive_offset="on" 
-                  data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
-                  <a class="more_btn" href="#">Discover</a>
                 </div>
 
                 <div class="tp-caption tp-resizeme single_img" 
@@ -123,21 +93,6 @@
                   data-responsive_offset="on" 
                   data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                   data-textAlign="['left','left','left','left','left','center']">Portray your own story<br/>Nothing connects you to <br/> people like Website 
-                </div>
-            
-                <div class="tp-caption tp-resizeme" 
-                  data-x="['left','left','left','left','15','center']" data-hoffset="['0','80','80','0']" 
-                  data-y="['top','top','top','top']" 
-                  data-voffset="['610','610','610','440','370','350']" 
-                  data-fontsize="['14','14','14','14']"
-                  data-lineheight="['46','46','46','46']"
-                  data-width="none"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-type="text" 
-                  data-responsive_offset="on" 
-                  data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
-                  <a class="more_btn" href="#">Discover</a>
                 </div>
 
                 <div class="tp-caption tp-resizeme single_img" 

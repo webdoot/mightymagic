@@ -35,7 +35,6 @@
                     <div class="challange_text_inner">
                         <div class="l_title">
                             <img src="img/icon/title-icon.png" alt="">
-                            <h6>Discover the features</h6>
                             <h2>Print & Production </h2>
                         </div>
                         <p>Our printing and production service comprise of experienced in the printing domain. We enrich and empower our creativity and help us to deliver outputs as we envision it. We delivers the critical insight that distinguishes your marketing collaterals and other outputs from the clutter. Be it standalone marketing collateral or a quantitative printing project, we are your one stop solution. </p>

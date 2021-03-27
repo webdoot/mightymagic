@@ -20,14 +20,7 @@
       padding: 4px 0px;
       border-radius: 4px;
     }
-
-    .banner_inner_text h2, .banner_inner_text p {
-      font-family: vagrounde;
-    }
-
-    .banner_inner_text h2 {
-      font-size: 64px;
-    }
+    
 </style>
 @endpush
 
@@ -37,8 +30,8 @@
         <section class="banner_area">
             <div class="container">
                 <div class="banner_inner_text">
-                    <h2>Don't Hesitate to Contact Us</h2>
-                    <p>We are Always Ready to Meet You</p>
+                    <h2>Reach Us</h2>
+                    <p>Get in touch</p>
                 </div>
             </div>
         </section>

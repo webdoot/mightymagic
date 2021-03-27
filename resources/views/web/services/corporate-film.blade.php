@@ -35,7 +35,6 @@
                     <div class="challange_text_inner">
                         <div class="l_title">
                             <img src="img/icon/title-icon.png" alt="">
-                            <h6>Discover the features</h6>
                             <h2>Corporate Films & Professional Photography  </h2>
                         </div>
                         <p>In the current economic environment, communicating the story and vision of a business or charity is essential, and the most effective way to accomplish this is by promoting your products and services through the medium of video. With the emergence of fast broadband and 3.6 billion YouTube searches performed every month, video is no longer an extravagance but a fundamental tool for reaching and informing potential customers and donors. No website – and therefore no organisation – can afford to be without video. <br><br>

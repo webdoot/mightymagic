@@ -4,34 +4,127 @@
 
 @push('head')
 <style type="text/css">
-	.l_title h2 {
-		font-size: 40px;
+
+    .tp-caption, .contacus-txt h2, .contacus-txt p {
+      font-family: vagrounde;
+      color: #E51A4B !important;
+    }
+
+    /* Main slider */
+    .slide-top {
+		font-family: vagrounde;
+      	color: #103042 !important;
+      	font-size: 46px;
+      	line-height: 56px;
+      	max-width: 682px;
+      	display: block;
+		overflow: hidden;
+		transform: matrix(1, 0, 0, 1, 0, 0);
+		position: absolute;
+		top: 310px;
+		/*left: 203px;*/
+		left: 20%;
+		opacity: 1;
 	}
 
+	@media (max-width: 1860px){
+		 .slide-top {
+		 	left: 18%;
+		 }
+	}
+
+	@media (max-width: 1660px){
+		 .slide-top {
+		 	left: 13%;
+		 }
+	}
+
+	@media (max-width: 1460px){
+		.slide-top {
+		 	left: 9%;
+		 }
+	}
+
+	@media (max-width: 991px){
+		.slide-top {
+			font-size: 38px;
+      		line-height: 46px;
+			top: 240px;
+		 	left: 9%;
+		 }
+	}
+
+	@media (max-width: 860px){
+		.slide-top {
+			top: 240px;
+		 	left: 3%;
+		 }
+	}
+
+	@media (max-width: 766px){
+		.slide-top {				
+			top: 240px;
+		 	left: 3%;
+		 }
+	}
+
+	@media (max-width: 680px){
+		.slide-top {				
+			top: 48%;
+		 }
+	}
+
+	@media (max-width: 580px){
+		.slide-top {
+			font-size: 1.5em;
+      		line-height: 1.5em;				
+			top: 48%;
+		 }
+	}
+
+	@media (max-width: 479px){
+		.slide-top {
+			font-size: 1.6em;
+      		line-height: 1.6em;				
+			top: 35%;
+			left: 13%;
+			text-align: center;
+		 }
+	}	
+
+	/* Achievments */
 	.mileston_item {
-		background-image: url('./img/3d-shap.png'); 
-		height: 360px; 
-		background-position: center; 
-		background-repeat: no-repeat; 
-		background-size: contain;
-		margin-bottom: 40px;
+		background-image: url('./img/3d-shap.png');
 	}
 
 	.mileston_item_r {
-		background-image: url('./img/3d-shap-1.png'); 
-		height: 360px; 
+		background-image: url('./img/3d-shap-1.png');
+	}
+
+	.mileston_item, .mileston_item_r {
 		background-position: center; 
 		background-repeat: no-repeat; 
-		background-size: contain;
+		background-size: contain; 
+		height: 330px;
+		text-align: center;	
+		width: 400px;	
+	}
+
+	.mileston_item {
+		margin-bottom: 40px;
+	}
+
+	.mileston_item img,
+	.mileston_item_r img {
+		max-width: 80px;
 	}
 
 	.mileston_item h4,
 	.mileston_item_r h4 {
 		text-align: center;
-		font-size: 60px;		
+		font-size: 48px;		
 		-webkit-text-fill-color: initial;
 		color: #fff;
-		margin-left: -20px;
 		width: 400px;
 	}
 
@@ -39,37 +132,7 @@
 	.mileston_item_r h5 {
 		color: white;
 		font-size: 20px;
-	}
-
-	.mileston_item h5 {
-		margin-left: 85px;
-	}
-
-	.mileston_item_r h5 {
-		margin-left: 132px;
-	}
-
-	.mileston_item img,
-	.mileston_item_r img {
-		max-width: 120px;
-	}
-
-	.mileston_block_3 {
-		margin-top: 216px;
-		margin-left: -5%;
-	}
-
-	.team_img_inner {
-		margin-left: 0;
-		max-width: inherit;
-		margin-bottom: 0;
-		max-width: initial;
-		margin-top: -80px;
-	}
-
-	.team_img_inner .row {
-		margin-left: 0;
-		margin-right: 0;
+		width: 400px;
 	}
 
 	.counter-icon{
@@ -83,24 +146,30 @@
 	}
 
 	.mileston_item .counter-icon {
-		margin-top: 62px;
-		margin-left: 68px;
+		margin-top: 90px;
 	}
 
 	.mileston_item_r .counter-icon {
-		padding-top: 55px;
-		margin-left: 49%;
+		padding-top: 90px;
+	}	
+
+	.mileston_block_3 {
+		margin-top: 187px;
+		margin-left: -15%;
 	}
 
-	@media (max-width: 1521px){ 
-		.team_img_inner {
-			margin-top: 40px;
-		}
-
-		.mileston_block_3 {
-		    margin-left: 0%;
-		}
+	.team_img_inner {
+		margin-left: 0;
+		max-width: inherit;
+		margin-bottom: 0;
+		max-width: initial;
+		margin-top: -80px;
 	}
+
+	.team_img_inner .row {
+		margin-left: 0;
+		margin-right: 0;
+	}	
 
 	@media (max-width: 1230px){ 
 		.team_people_area {
@@ -110,29 +179,14 @@
 		.mileston_block_3 {
 		    margin-left: -5%;
 		}
-	}
-
-	@media (max-width: 1199px){ 
-		
-
-	}
+	}	
 
 	@media (max-width: 991px){ 
 		.team_img_inner {
 		    padding-left: 10%;
 		    padding-right: 10%;
-		}
-
-		.mileston_item_r h4 {
-			text-align: initial;
-			padding-left: 50%;
-
-		}
-
-		.mileston_item_r h5 {
-		    margin-left: 34%;
-		}
-
+		    margin-top: 48px;
+		}		
 	}
 
 	@media (max-width: 767px){ 
@@ -141,28 +195,9 @@
 		}
 
 		.mileston_block_3 {
-			margin-top: -46px;
-		    margin-left: 0%;
-		}
-
-		.mileston_item .counter-icon {
-		    margin-top: 62px;
-			margin-left: 68px;
-		}
-
-		.mileston_item_r .counter-icon {
-		    margin-left: 24%;
-		}
-
-		.mileston_item_r h4 {
-			text-align: initial;
-			padding-left: 50%;
-
-		}
-
-		.mileston_item_r h5 {
-		    margin-left: 10%;
-		}		
+			margin-top: -8px;
+		    margin-left: 12%;
+		}			
 
 	}	
 
@@ -171,23 +206,12 @@
 		    padding-left: 0;
 		    padding-right: 0;
 		}
-		.mileston_item .counter-icon {
-		    margin-left: -142px;
+		
+		.mileston_block_3 {		    
+		    margin-left: 0;
 		}
-		.mileston_block_3 {
-		    margin-top: 0px;
-		}
-
-		.mileston_item h5 {
-		    margin-left: -48px;
-		}
-	}
-
-	@media (max-width: 480px){ 
-		.mileston_block_3 {
-		    margin-top: 0px;
-		}
-	}
+	}   /*  ./Achievments */
+	
 
 	.clientele {
 		position: absolute;
@@ -298,8 +322,15 @@
 		.testimonials_area {
 		    padding-top: 60px;
 		}
-	}	
 
+		.client-box {
+			margin-left: 0;
+		}
+
+		.team_people_area {
+		    padding-top: 290px;
+		}
+	}	
 
 </style>
 @endpush

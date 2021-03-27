@@ -36,17 +36,11 @@
   @stack('head')
 
   <style type="text/css">
-
     @font-face {
       font-family: vagrounde;
-      src: url(./fonts/VAGRoundedBT.ttf);
+      src: url(../fonts/VAGRoundedBT.ttf);
       font-weight: 300;
     }
-
-    .tp-caption, .contacus-txt h2, .contacus-txt p {
-      font-family: vagrounde;
-    }
-
    
     #brand-logo {
       max-width: 120px;
@@ -106,6 +100,24 @@
 
     .f_title {
       padding-bottom: 40px;
+    }
+
+    .banner_inner_text h2, 
+    .banner_inner_text p, 
+    .l_title h2 {
+      font-family: vagrounde;
+    }
+
+    .banner_inner_text h2 {
+      font-size: 64px;
+    }
+
+    .banner_inner_text p {
+      font-size: 24px;
+    }
+
+    .l_title h2 {
+      font-size: 38px;
     }
   </style>
 
