@@ -25,12 +25,10 @@
                 <div class="touch_details">
                     <div class="l_title">
                         <img src="img/icon/title-icon.png" alt="">
-                        <h6>Say hello</h6>
-                        <!-- <h2>Get in touch with us</h2> -->
                     </div>
-                    <p><i class="fa fa-bank"></i> &nbsp; 2A, S.N.HOUSE, Opp. Rock Regency Hotel, C.G.Road, <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ahmedabad- 380006, India.</p>
+                    <p><i class="fa fa-bank"></i> &nbsp; 2A, S.N.HOUSE, Opp. Rock Regency Hotel, C.G.Road, <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ahmedabad- 380006, India.</p>
 
-                    <p><i class="fa fa-envelope"></i> &nbsp; biz@mightymagicdigital.com, <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; marketing@mightymagicdigital.com</p>
+                    <p><i class="fa fa-envelope"></i> &nbsp; biz@mightymagicdigital.com</p>
 
                     <p><i class="fa fa-phone"></i> &nbsp; +91 98256 45677 </p>
 

@@ -48,6 +48,11 @@
     .f_icon img {
         opacity: .5;
     }
+
+    .feature_item h4 {
+        font-size: 22px;
+        font-family: vagrounde;
+    }
 </style>
 @endpush
 

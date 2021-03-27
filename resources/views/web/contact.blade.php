@@ -31,7 +31,7 @@
             <div class="container">
                 <div class="banner_inner_text">
                     <h2>Reach Us</h2>
-                    <p>Get in touch</p>
+                    <p>We Are Ready To Assist You</p>
                 </div>
             </div>
         </section>

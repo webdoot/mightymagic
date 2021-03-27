@@ -10,6 +10,10 @@
         text-align: justify;
         margin: auto;
     }
+
+    .company_skill {
+        padding-top: 185px;
+    }
  </style>
 @endpush
 
@@ -36,11 +40,7 @@
                             <img src="img/icon/title-icon.png" alt="">
                             <h2>Your Vision Your Message</h2>
                         </div>
-                        <p>Mighty Magic Digital Pvt. Ltd. is the entertaining platform build in India. Our main hosting is being done from Ahmedabad, Gujarat. Introducing new talent is the idea of our company. Mighty Magic invites developed, semi- develop and row- develop projects from you people linked with entertainment field.
-
-                        Entertainment is an activity that holds the attention and interest of the viewers, or give pleasure and relaxation from this hectic life. If you are thinking of web series, short feature films, music videos, entertainment news, documentary films, brand boosting corporate piece of advertisement or digital marketing, we are here to help you every step of the way. 
-
-                        If you’re looking for support for your latest project, you probably want that support to be something you can rely upon. Mighty Magic Digital Pvt. Ltd. is a professional service provider that takes all the stress away and consistently delivers results on time and in budget. </p>
+                        <p>We are one of the best in the industry for our wide range of design & execution services. The Name Mighty Magic Digital stands for creativity, conceptualization, and execution of projects. We tailor a one-stop solution for the range of services that are made as per your requirements in all aspects in the areas such as Web solutions, Graphics designing, Web Series and Serials. If you are planning to create a concise, hard-hitting videos for social media channels, brand-boosting corporate piece, advertisements, documentary film, web-series or short-feature film, we are here to guide you at every step of the way. </p>
                         <!-- <div class="c_video">
                             <a class="popup-youtube" href="https://www.youtube.com/watch?v=62QYQE6k7tg"><img src="img/icon/video-icon.png" alt="">See how we work </a>
                         </div> -->
@@ -61,7 +61,11 @@
                             <img src="img/icon/title-icon.png" alt="">
                             <h2>We don’t hide, we stand tall in front of challenge</h2>
                         </div>
-                        <p style="text-align: justify; margin-top: -48px;">We are one of the best in the industry for our wide range of design & execution services. The Name Mighty Magic Digital stands for creativity, conceptualization, and execution of projects. We tailor a one-stop solution for the range of services that are made as per your requirements in all aspects in the areas such as Web solutions, Graphics designing, Web Series and Serials. If you are planning to create a concise, hard-hitting videos for social media channels, brand-boosting corporate piece, advertisements, documentary film, web-series or short-feature film, we are here to guide you at every step of the way. </p>
+                        <p style="text-align: justify; margin-top: -48px;">Mighty Magic Digital Pvt. Ltd. is the entertaining platform build in India. Our main hosting is being done from Ahmedabad, Gujarat. Introducing new talent is the idea of our company. Mighty Magic invites developed, semi- develop and row- develop projects from you people linked with entertainment field.
+
+                        Entertainment is an activity that holds the attention and interest of the viewers, or give pleasure and relaxation from this hectic life. If you are thinking of web series, short feature films, music videos, entertainment news, documentary films, brand boosting corporate piece of advertisement or digital marketing, we are here to help you every step of the way. 
+
+                        If you’re looking for support for your latest project, you probably want that support to be something you can rely upon. Mighty Magic Digital Pvt. Ltd. is a professional service provider that takes all the stress away and consistently delivers results on time and in budget. </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
