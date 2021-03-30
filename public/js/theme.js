@@ -144,15 +144,17 @@
         if ( $('.shap_slider_inner').length ){
             $('.shap_slider_inner').owlCarousel({
                 loop:true,
-                margin: 60,
-                // autoWidth:true,
-                stagePadding: 40,
+                margin: 0,
+                // autoWidth:false,
+                // stagePadding: 10,
+                // singleItem:true,
                 items: 1,
                 nav:false,
                 autoplay: false,
                 smartSpeed: 1500,
                 dots:true,
-                center: false
+                center: true,
+                // transitionStyle: "fade"
             })
         }
     }

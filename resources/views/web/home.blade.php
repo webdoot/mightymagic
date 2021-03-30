@@ -509,6 +509,20 @@
 		left: 256px;
 	}
 
+	/** Testimonial */
+	.shap_slider_inner .item{
+	  padding: 0px 0px;
+	  margin: 10px;
+	}
+
+	.shap_slider_inner .item p {
+	    padding: 25px 0px 25px 0px;
+	}
+
+	.shap_slider_inner .item .media {
+	    float: right;
+	}
+
 </style>
 @endpush
 
