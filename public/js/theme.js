@@ -144,8 +144,9 @@
         if ( $('.shap_slider_inner').length ){
             $('.shap_slider_inner').owlCarousel({
                 loop:true,
-                // margin: 10,
+                margin: 60,
                 // autoWidth:true,
+                stagePadding: 40,
                 items: 1,
                 nav:false,
                 autoplay: false,

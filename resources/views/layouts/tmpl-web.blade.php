@@ -122,6 +122,11 @@
     .l_title h2 {
       font-size: 38px;
     }
+
+    /** Banner below line */
+    .banner_inner_text::before {
+      background: none;
+    }
   </style>
 
 </head>
