@@ -111,6 +111,8 @@
 
     .banner_inner_text h2 {
       font-size: 64px;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 
     .banner_inner_text p {

@@ -2,39 +2,22 @@
 <section class="best_3d_area" style="transition-delay: 2s">
     <div class="left_3d">
         <div class="shap_slider_inner owl-carousel">
-            <div class="item">
+            <div class="item" style="margin-left: 40px">
                 <h4>“They are the best”</h4>
-                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
+                <p>Mighty Magic Digital Pvt. Ltd. Had been rendering their professional services to Genius Group of Institutions for last 20 years. We say their services for making shift towards betterments are up to the highest mark. They have good work ethics and proactive approach towards implementing their work skills...</p>
                 <div class="media">
-                    <img src="{{ asset('img/team/people/people-5.jpg')}}" alt="">
-                    <div class="media-body">
-                        <h5>Chriss Turner</h5>
-                        <h6>CEO Enterprise</h6>
-                    </div>
+                    <img src="{{ asset('image/client-1/4.jpg')}}" alt="" height="60">
                 </div>
             </div>
-            <div class="item">
+            <div class="item" style="margin-left: 40px">
                 <h4>“They are the best”</h4>
-                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
+                <p>Mighty Magic Digital Pvt. Ltd. Had been rendering their professional services to Jay International School for last 20 years. We say their services for making shift towards betterments are up to the highest mark. They have good work ethics and proactive approach towards implementing their work skills...</p>
                 <div class="media">
-                    <img src="{{ asset('img/team/people/people-5.jpg')}}" alt="">
-                    <div class="media-body">
-                        <h5>Chriss Turner</h5>
-                        <h6>CEO Enterprise</h6>
-                    </div>
+                    <img src="{{ asset('image/client-1/6.jpg')}}" alt="" height="60">
                 </div>
             </div>
-            <div class="item">
-                <h4>“They are the best”</h4>
-                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
-                <div class="media">
-                    <img src="{{ asset('img/team/people/people-5.jpg')}}" alt="">
-                    <div class="media-body">
-                        <h5>Chriss Turner</h5>
-                        <h6>CEO Enterprise</h6>
-                    </div>
-                </div>
-            </div>
+
+            
         </div>
     </div>
     <div class="right_text">

@@ -5,7 +5,7 @@
             <div class="row footer_widget_inner">
                 <div class="col-lg-4 col-sm-6">
                     <aside class="f_widget f_about_widget">
-                        <img src="{{ asset('image/mm-black-logo.png')}}" height="55" alt="">
+                        <img src="{{ asset('image/mm-black-logo.png')}}" height="85" alt="">
                         <p>Mighty Magic Digital Pvt.Ltd. is the entertaining platform build in India. We help our clients to portray their own story.</p>
 
                         <ul class="social-icon">

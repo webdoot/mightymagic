@@ -144,13 +144,14 @@
         if ( $('.shap_slider_inner').length ){
             $('.shap_slider_inner').owlCarousel({
                 loop:true,
-                margin: 0,
+                // margin: 10,
+                // autoWidth:true,
                 items: 1,
                 nav:false,
                 autoplay: false,
                 smartSpeed: 1500,
                 dots:true,
-                center: true
+                center: false
             })
         }
     }

@@ -369,7 +369,8 @@
 	}
 
 	.challange_img .challange_img_inner {		
-		box-shadow: 0px 27px 68px 0px rgba(140, 154, 255);
+		/*box-shadow: 0px 27px 68px 0px rgba(140, 154, 255);*/
+		box-shadow: none;
 	}
 
 	.c_video {
@@ -377,17 +378,6 @@
 		position: absolute;
 		top: 154px;
 		left: 256px;
-	}
-
-	/* second */
-	.upcoming_bg {	
-	    background-image: -moz-linear-gradient(10deg, #6ebdfe 0%, #9b8aff 100%);
-	    background-image: -webkit-linear-gradient(10deg, #6ebdfe 0%, #9b8aff 100%);
-	    background-image: -ms-linear-gradient(10deg, #6ebdfe 0%, #9b8aff 100%);
-	}
-
-	.upcoming_p p {
-		color: #251a5b;
 	}
 
 </style>
@@ -409,9 +399,9 @@
                     <div class="challange_text_inner">
                         <div class="l_title">
                             <img src="img/icon/title-icon.png" alt="">
-                            <h2>Upcoming Projects</h2>
+                            <h2>Our Upcoming Projects</h2>
                         </div>
-                        <p>Every company’s name is known by its work. So let’s have a look on videos related to Mighty Magic Digital’s creative ideas presented on reel with reality.</p>
+                        <p>Every company’s name is known by its work. So let’s have a look on our upcoming projects related to Mighty Magic Digital’s creative ideas presented on reel with reality.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 challange_img">
@@ -426,29 +416,7 @@
         </div>
     </section>
 
-    <section class="challange_area p_100 upcoming_bg">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="challange_text_inner upcoming_p">
-                        <div class="l_title">
-                            <img src="img/icon/title-icon.png" alt="">
-                            <h2>Upcoming Projects</h2>
-                        </div>
-                        <p>Every company’s name is known by its work. So let’s have a look on videos related to Mighty Magic Digital’s creative ideas presented on reel with reality.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 challange_img">
-                    <div class="challange_img_inner upcoming_img">
-                        <img class="img-fluid" src="../img/trailer-1.jpg" alt="">
-                    </div>
-                    <div class="c_video">
-                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=LTXD6XZXc3U"><img src="../img/icon/video-icon.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 	<!--================ Upcoming projects =================-->
 
 @endsection
