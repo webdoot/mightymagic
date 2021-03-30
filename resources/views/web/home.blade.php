@@ -490,24 +490,7 @@
 		.team_people_area {
 		    padding-top: 290px;
 		}
-	}
-
-	/* Upcoming project */
-	.challange_img_inner {
-		opacity: .8;
-	}
-
-	.challange_img .challange_img_inner {		
-		/*box-shadow: 0px 27px 68px 0px rgba(140, 154, 255);*/
-		box-shadow: none;
-	}
-
-	.c_video {
-		z-index: 99;
-		position: absolute;
-		top: 154px;
-		left: 256px;
-	}
+	}	
 
 	/** Testimonial */
 	.shap_slider_inner .item{
@@ -528,14 +511,22 @@
         display: block;
         width: 100%;
         height: auto;
+        opacity: .8;
     }
 
     .upcome_project_inner .owl-stage {
-    	width: 570px;
+    	/*width: 570px;*/
     }
 
     .upcome_project_inner .item{
 	  margin: 30px;
+	}
+
+	.c_video {
+		z-index: 99;
+		position: absolute;
+		top: 154px;
+		left: 256px;
 	}
 
 
@@ -551,30 +542,6 @@
   	@include('layouts.web-inc.achievment')
 
   	<!-- ================ Upcoming projects =================-->
-	<section class="challange_area p_100">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="challange_text_inner">
-                        <div class="l_title">
-                            <img src="img/icon/title-icon.png" alt="">
-                            <h2>Our Upcoming Projects</h2>
-                        </div>
-                        <p>Every company’s name is known by its work. So let’s have a look on our upcoming projects related to Mighty Magic Digital’s creative ideas presented on reel with reality.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 challange_img">
-                    <div class="challange_img_inner">
-                        <img class="img-fluid" src="../img/trailer-1.jpg" alt="">
-                    </div>
-                    <div class="c_video">
-                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=LTXD6XZXc3U"><img src="../img/icon/video-icon.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="challange_area p_100">
         <div class="container-fluid">
             <div class="row">
@@ -592,14 +559,24 @@
                 		<div class="item" style="width: 570px">
                 			<img class="img-fluid" src="../img/trailer-1.jpg" alt="">
                 			<div class="c_video">
-		                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=LTXD6XZXc3U"><img src="../img/icon/video-icon.png" alt=""></a>
+		                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=LTXD6XZXc3U">
+		                        	<img src="../img/icon/video-icon.png" alt=""></a>
 		                    </div>
                 		</div>
 
                 		<div class="item" style="width: 570px">
-                			<img class="img-fluid" src="../img/popup-photo.jpg" alt="">
+                			<img class="img-fluid" src="../img/pp-1.jpg" alt="">
                 			<div class="c_video">
-		                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=LTXD6XZXc3U"><img src="../img/icon/video-icon.png" alt=""></a>
+		                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=RK1K2bCg4J8">
+		                        	<img src="../img/icon/video-icon.png" alt=""></a>
+		                    </div>
+                		</div>
+
+                		<div class="item" style="width: 570px">
+                			<img class="img-fluid" src="../img/swan.jpg" alt="">
+                			<div class="c_video">
+		                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=rN6nlNC9WQA">
+		                        	<img src="../img/icon/video-icon.png" alt=""></a>
 		                    </div>
                 		</div>
 
@@ -645,6 +622,8 @@
                 autoplay: true,
                 animateOut: 'fadeOut',
     			animateIn: 'fadeIn',
+    			// smartSpeed: 5000,
+    			// autoplaySpeed: 3000,
             })
         }
     }

@@ -150,7 +150,7 @@
                 // singleItem:true,
                 items: 1,
                 nav:false,
-                autoplay: false,
+                autoplay: true,
                 smartSpeed: 1500,
                 dots:true,
                 center: true,
