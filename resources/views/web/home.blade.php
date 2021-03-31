@@ -506,6 +506,11 @@
 	    float: right;
 	}
 
+	.shap_slider_inner .owl-dots {
+	    text-align: right;
+	    margin-top: 8px;
+	}
+
 	/** Upcoming project */
     .upcome_project_inner .item img{
         display: block;
