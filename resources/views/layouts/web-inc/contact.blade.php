@@ -26,12 +26,14 @@
                     <div class="l_title">
                         <img src="img/icon/title-icon.png" alt="">
                     </div>
+                    <div id="front-add">
+                        <img src="img/address-1.jpg" alt="">
+                    </div>
+                    <div id="back-add">
                         <p><i class="fa fa-bank"></i> &nbsp; 2A, S.N.HOUSE, Opp. Rock Regency Hotel, C.G.Road, <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ahmedabad- 380006, India.</p>
                         <p><i class="fa fa-envelope"></i> &nbsp; biz@mightymagicdigital.com</p>
                         <p><i class="fa fa-phone"></i> &nbsp; +91 98256 45677 </p>
-
-                    <!-- <a href="#"><h5>Call us now</h5></a>
-                    <a href="#"><h4>+91-98256 45677</h4></a> -->
+                    </div>
                 </div>
             </div>
         </div>

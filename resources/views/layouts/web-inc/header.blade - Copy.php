@@ -1,22 +1,5 @@
 <!--================Header Menu Area =================-->
 <header class="main_menu_area">
-    <div class="header-top-border">
-        <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="header-top-text">
-                    <p>Welcome to Mighty Magic. <a href="http://mightymagicdigital.com/reach_us">Have Any Question?</a></p>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="header-right text-md-right">
-                    <div class="header-info">
-                        <span style="color: #e51a4b !important;"> Your Vision Your Message &nbsp; | &nbsp; <a href="http://webmail.mightymagicdigital.com/" target="_blank" style="color: #e51a4b"> Webmail </a> </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="{{route('home')}}">
             <img id="brand-logo" src="{{ asset('image/mm-black-logo.png')}}" alt="mightymagic logo">

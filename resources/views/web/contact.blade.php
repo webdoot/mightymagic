@@ -20,6 +20,15 @@
       padding: 4px 0px;
       border-radius: 4px;
     }
+
+    #front-add {
+      margin-left: -30px;
+      margin-top: -26px;
+    }
+
+    #back-add {
+      display: none;
+    }
     
 </style>
 @endpush
@@ -47,5 +56,17 @@
 <script src="{{ asset('js/jquery.form.js') }}"></script>
 <script src="{{ asset('js/jquery.validate.min.js') }}"></script>
 <script src="{{ asset('js/contact.js') }}"></script>
+
+<script type="text/javascript">
+  $('#front-add').click(function(){
+      $('#back-add').show();
+      $('#front-add').hide();
+  });
+
+  $('#back-add').click(function(){
+      $('#front-add').show();
+      $('#back-add').hide();
+  });
+</script>
 
 @endpush

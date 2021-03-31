@@ -42,6 +42,46 @@
       src: url(../fonts/VAGRoundedBT.ttf);
       font-weight: 300;
     }
+
+    /**   Top header */
+    .header-top-border {
+        /*border-bottom: 2px solid #A6D6FF;*/
+        border-bottom: 2px solid #f2f2f2;
+        padding: 8px 0;
+    }
+
+    .header-top-text p {
+        color: #DEB5DC;
+        font-size: 14px;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+
+    @media (max-width: 1260px){
+       .header-top-text p {
+            color: #fff;
+        }
+    }
+
+    .header-top-text a {
+      color: #113345 ;
+    }
+
+    .header-right {
+        padding-top: 4px;
+    }
+
+    .header-info span:last-child {
+        margin-right: 0;
+    }
+
+    .header-info span {
+        color: #b1b1b1;
+        font-size: 14px;
+        font-weight: 400;
+        margin-right: 28px;
+    }
+    /** ./Top Header  */
    
     #brand-logo {
       max-width: 120px;
@@ -54,6 +94,10 @@
 
     #brand-logo-1 {
       display: none;
+    }
+
+    .banner_area::before {
+        top: -5px;
     }
 
     .main_menu_area .navbar 
