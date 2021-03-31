@@ -4,16 +4,16 @@
         <div class="shap_slider_inner owl-carousel">
             <div class="item">
                 <h4 class="text-right">“They are the best”</h4>
-                <p class="text-justify">Mighty Magic Digital Pvt. Ltd. Had been rendering their professional services to Genius Group of Institutions for last 20 years. We say their services for making shift towards betterments are up to the highest mark. They have good work ethics and proactive approach towards implementing their work skills...</p>
+                <p class="text-justify">This is to certify that Mighty Magic Digital Pvt. Ltd. Had been rendering their professional services to Genius School for last 20 years. We certify that their services and their PROMPT professional services for the making the shift towards betterments are up to the mark. They also are rendering their professional services for other institutions falling under Genius Group of Institutions...</p>
                 <div class="media">
-                    <img src="{{ asset('image/client-1/4.jpg')}}" alt="" height="60">
+                    <img src="{{ asset('image/client/4.png')}}" alt="" height="60">
                 </div>
             </div>
             <div class="item">
-                <h4 class="text-right">“They are the best”</h4>
-                <p class="text-justify">Mighty Magic Digital Pvt. Ltd. Had been rendering their professional services to Jay International School for last 20 years. We say their services for making shift towards betterments are up to the highest mark. They have good work ethics and proactive approach towards implementing their work skills...</p>
+                <h4 class="text-right">“Specialized In Brand Building ”</h4>
+                <p class="text-justify">This is to certify that Mighty Magic Digital Pvt. Ltd. Had been rendering their professional services to Jay International School for more than 20 years. and they are consistently catered all the services at the highest possible category. They have good work ethics and had a proactive approach towards implementing their work skills...</p>
                 <div class="media">
-                    <img src="{{ asset('image/client-1/6-1.jpg')}}" alt="" height="60">
+                    <img src="{{ asset('image/client/4-1.png')}}" alt="" height="60">
                 </div>
             </div>
 
