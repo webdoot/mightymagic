@@ -12,6 +12,7 @@
       color: #E51A4B;
     }
 
+    /**  Accord  */
     .accordion {
       margin-top: 118px;
       margin-left: 30px;
@@ -19,7 +20,9 @@
 
     button.btn-link, button.btn-link:hover {
       text-decoration: none !important;
-      color: #7c8d93;
+      color: #6b7d8e;
+      font-family: vagrounde;
+      font-size: 20px;
     }  
 
     .touch_details {

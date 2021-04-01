@@ -117,9 +117,7 @@
                       <img src="image/home-slider/slide-13.png" alt="">
                 </div>
               </div>
-            </li>
-
-            
+            </li>            
 
         </ul>
     </div>

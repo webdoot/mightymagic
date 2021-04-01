@@ -27,7 +27,6 @@
                         <li data-filter=".brand"><a href="#">Brand identity</a></li>
                         <li data-filter=".design"><a href="#">Web Solution </a></li>
                         <li data-filter=".arc"><a href="#">Corporate Films & Photography </a></li>
-                        <li data-filter=".photo"><a href="#">Print & Production</a></li>
                     </ul>
                 </div>
             </div>
