@@ -25,6 +25,10 @@
       font-size: 20px;
     }  
 
+    #headingOne {
+        background-color: #fff !important;
+    }
+
     .touch_details {
         margin-left: 0;
     }
