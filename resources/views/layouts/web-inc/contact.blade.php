@@ -25,6 +25,7 @@
                 <div class="touch_details">
                     <div class="l_title">
                         <img src="img/icon/title-icon.png" alt="">
+                        <h3>One click away from discovering us!</h3>
                     </div>
                     <div id="front-add">
                         <img src="img/address-1.jpg" alt="">

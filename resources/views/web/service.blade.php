@@ -119,7 +119,7 @@
                                 <img src="{{ asset('image/icons-1/8.png')}}" alt="">
                             </div>
                             <h4>Print & Production </h4>
-                            <p>Our printing and production service comprise of experienced in the printing domain. We delivers the critical insight that distinguishes your marketing collaterals and other outputs from the clutter. Be it standalone marketing collateral or a quantitative printing project, we are your one stop solution...</p>
+                            <p>Print materials are an important part of your business's marketing collateral, they're the footprint that your business leaves behind. From brochures and business cards, to private label water bottles and velvet presentation folders, we have the ability to design and produce almost any branded print material for you and your team. Since we work directly with our national printer, we have the ability to cut out the middlemen and provide exceptionally competitive pricing. Just ask us...</p>
                             <a class="more_btn" href="{{route('service.print')}}">Read More</a>
                         </div>
                     </div>
