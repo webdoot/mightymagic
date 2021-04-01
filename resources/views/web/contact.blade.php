@@ -25,9 +25,15 @@
       font-size: 20px;
     }  
 
-    #headingOne {
-        background-color: #fff !important;
+    .card {
+      border: none;
     }
+
+    .card-header {
+        background-color: #fff !important;
+        border-bottom: none;
+    }
+
 
     .touch_details {
         margin-left: 0;
