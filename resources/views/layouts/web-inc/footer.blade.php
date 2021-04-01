@@ -43,7 +43,7 @@
                             <li><a href="{{route('portfolio')}}" style="color: #1D3F59">Portfolio</a></li>
                             <li><a href="{{route('workwith')}}" style="color: #1D3F59">Work With Us</a></li>                          
                             <li><a href="{{route('contact')}}" style="color: #1D3F59">Reach Us</a></li>                         
-                            <li><a href="#" style="color: #1D3F59">Terms & Conditions</a></li>                                                                                                        
+                            <li><a href="http://webmail.mightymagicdigital.com/" target="_blank" style="color: #1D3F59">Webmail</a></li>                                                                                                        
                         </ul>
                     </aside>
                 </div>

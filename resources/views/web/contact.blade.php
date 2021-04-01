@@ -12,6 +12,27 @@
       color: #E51A4B;
     }
 
+    .accordion {
+      margin-top: 118px;
+      margin-left: 30px;
+    }   
+
+    button.btn-link, button.btn-link:hover {
+      text-decoration: none !important;
+      color: #7c8d93;
+    }  
+
+    .touch_details {
+        margin-left: 0;
+    }
+
+    .touch_details p {
+        font-size: 15px;
+        line-height: 28px;
+        font-family: "Roboto", sans-serif;
+        color: #7c8d93;
+    }
+
     .touch_details i {
       width: 30px;
       background-color: #7c8d93;
@@ -19,15 +40,6 @@
       text-align: center;
       padding: 4px 0px;
       border-radius: 4px;
-    }
-
-    #front-add {
-      margin-left: -30px;
-      margin-top: -26px;
-    }
-
-    #back-add {
-      display: none;
     }
     
 </style>
@@ -58,15 +70,11 @@
 <script src="{{ asset('js/contact.js') }}"></script>
 
 <script type="text/javascript">
-  $('#front-add').click(function(){
-      $('#back-add').show();
-      $('#front-add').hide();
-  });
+  
+  $('#headingOne').click(function(){
+    $('#map').toggle();
+  }); 
 
-  $('#back-add').click(function(){
-      $('#front-add').show();
-      $('#back-add').hide();
-  });
 </script>
 
 @endpush
