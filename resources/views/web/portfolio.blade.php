@@ -23,43 +23,55 @@
             <div class="container">
                 <div class="portfolio_filter">
                     <ul>
-                        <li data-filter=".brand"><a href="#">Film & OTT Platform </a></li>
+                        <li data-filter=".film"><a href="#">Film & OTT Platform </a></li>
                         <li data-filter=".brand"><a href="#">Brand identity</a></li>
-                        <li data-filter=".design"><a href="#">Web Solution </a></li>
-                        <li data-filter=".arc"><a href="#">Corporate Films & Photography </a></li>
+                        <li data-filter=".web"><a href="#">Web Solution </a></li>
+                        <li data-filter=".corporate"><a href="#">Corporate Films & Photography </a></li>
                     </ul>
                 </div>
             </div>
             <div class="ms_portfolio_inner">
-                <div class="ms_p_item wd_25 brand arc photo">
-                    <img src="img/portfolio/ms-portfolio/ms-p-1.jpg" alt="">
+                <!--  Brand  -->
+                <div class="ms_p_item wd_25 brand">
+                    <img src="{{ asset('image/portfolio/brand/aditya-ent_logo.jpg')}}" alt="">
                 </div>
-                <div class="ms_p_item wd_25 brand arc photo">
-                    <img src="img/portfolio/ms-portfolio/ms-p-2.jpg" alt="">
+                <div class="ms_p_item wd_25 brand">
+                    <img src="{{ asset('image/portfolio/brand/BROCHURE.jpg')}}" alt="">
                 </div>
                 <div class="ms_p_item wd_50 brand">
-                    <img src="img/portfolio/ms-portfolio/ms-p-3.jpg" alt="">
+                    <img src="{{ asset('image/portfolio/brand/Genius-Brochure.jpg')}}" alt="">
                 </div>
-                <div class="ms_p_item wd_25 brand arc photo">
-                    <img src="img/portfolio/ms-portfolio/ms-p-4.jpg" alt="">
+                <div class="ms_p_item wd_25 brand">
+                    <img src="{{ asset('image/portfolio/brand/InvitationCard.jpg')}}" alt="">
                 </div>
-                <div class="ms_p_item wd_25 brand arc photo">
-                    <img src="img/portfolio/ms-portfolio/ms-p-5.jpg" alt="">
+                <div class="ms_p_item wd_25 brand">
+                    <img src="{{ asset('image/portfolio/brand/gipl_logo.jpg')}}" alt="">
                 </div>
-                <div class="ms_p_item wd_50">
-                    <img src="img/portfolio/ms-portfolio/ms-p-6.jpg" alt="">
+                <div class="ms_p_item wd_25 brand">
+                    <img src="{{ asset('image/portfolio/brand/Infinity Hunt cover.jpg')}}" alt="">
                 </div>
-                <div class="ms_p_item wd_25 design arc">
-                    <img src="img/portfolio/ms-portfolio/ms-p-7.jpg" alt="">
+                <div class="ms_p_item wd_50 brand">
+                    <img src="{{ asset('image/portfolio/brand/genius-kids-brochure.jpg')}}" alt="">
                 </div>
-                <div class="ms_p_item wd_25 design arc">
-                    <img src="img/portfolio/ms-portfolio/ms-p-8.jpg" alt="">
+                <div class="ms_p_item wd_25 brand">
+                    <img src="{{ asset('image/portfolio/brand/KHUSHI DESIGN.jpg')}}" alt="">
                 </div>
-                <div class="ms_p_item wd_25 design arc">
-                    <img src="img/portfolio/ms-portfolio/ms-p-9.jpg" alt="">
+                <div class="ms_p_item wd_25 brand">
+                    <img src="{{ asset('image/portfolio/brand/Uttam Logo.jpg')}}" alt="">
                 </div>
-                <div class="ms_p_item wd_25 design arc">
-                    <img src="img/portfolio/ms-portfolio/ms-p-10.jpg" alt="">
+                <div class="ms_p_item wd_25 brand">
+                    <img src="{{ asset('image/portfolio/brand/vcard.jpg')}}" alt="">
+                </div>
+
+                <!--  Film  -->
+                <div class="ms_p_item wd_25 film">
+                    <img src="{{ asset('image/portfolio/film/101.jpg')}}" alt="">
+                </div>
+                <div class="ms_p_item wd_50 film">
+                    <img src="{{ asset('image/portfolio/film/102.jpg')}}" alt="">
+                </div>
+                <div class="ms_p_item wd_25 film">
+                    <img src="{{ asset('image/portfolio/film/103.jpg')}}" alt="">
                 </div>
             </div>
         </section>
