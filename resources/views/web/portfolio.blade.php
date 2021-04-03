@@ -4,6 +4,11 @@
 
 @push('head')
 <style type="text/css">
+    .ms_portfolio_inner {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     .ms_portfolio_inner .ms_p_item img {
         width: 97%;
     }
@@ -29,7 +34,7 @@
         <!--================End Banner Area =================-->
         
         <!--================Portfolio Area =================-->
-        <section class="portfolio_area">
+        <section class="portfolio_area p_100">
             <div class="container">
                 <div class="portfolio_filter">
                     <ul>
