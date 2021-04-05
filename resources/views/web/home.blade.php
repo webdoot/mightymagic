@@ -42,7 +42,7 @@
 
 	@media (max-width: 2020px){
 		 .slide-top {
-		 	left: 21%;
+		 	left: 19%;
 		 }
 	}
 
