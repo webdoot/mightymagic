@@ -16,7 +16,7 @@
       	color: #103042 !important;
       	font-size: 46px;
       	line-height: 56px;
-      	max-width: 682px;
+      	width: 1449px;
       	display: block;
 		overflow: hidden;
 		transform: matrix(1, 0, 0, 1, 0, 0);
@@ -36,13 +36,13 @@
 
 	@media (max-width: 2120px){
 		 .slide-top {
-		 	left: 20%;
+		 	left: 22%;
 		 }
 	}
 
 	@media (max-width: 2020px){
 		 .slide-top {
-		 	left: 19%;
+		 	left: 21%;
 		 }
 	}
 
@@ -72,7 +72,7 @@
 
 	@media (max-width: 1590px){
 		 .slide-top {
-		 	left: 9%;
+		 	left: 11%;
 		 }
 	}
 
