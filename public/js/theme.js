@@ -216,16 +216,40 @@
     /*----------------------------------------------------*/
     /*  portfolio_isotope
     /*----------------------------------------------------*/
+    // function home_gallery(){
+    //     if ( $('.ms_portfolio_inner').length ){
+    //         // Activate isotope in container
+    //         $(".ms_portfolio_inner").imagesLoaded( function() {
+    //             $(".ms_portfolio_inner").isotope({
+    //                 itemSelector: '.ms_p_item',
+    //                 layoutMode: 'masonry',
+    //                 percentPosition:true,
+    //                 columnWidth: 1,
+    //             }); 
+    //         }); 
+    //     }
+    // }
+    // home_gallery();
+
     function home_gallery(){
         if ( $('.ms_portfolio_inner').length ){
             // Activate isotope in container
             $(".ms_portfolio_inner").imagesLoaded( function() {
-                $(".ms_portfolio_inner").isotope({
+                var portfolio = $(".ms_portfolio_inner").isotope({
                     itemSelector: '.ms_p_item',
                     layoutMode: 'masonry',
                     percentPosition:true,
                     columnWidth: 1,
-                }); 
+                });
+
+
+                // change size of item by toggling gigante class
+                portfolio.on( 'click', '.ms_p_item', function() {
+                  $(this).toggleClass('gigante');
+                  // trigger layout after item size changes
+                  portfolio.isotope('layout');
+                });
+
             }); 
         }
     }

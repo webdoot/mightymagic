@@ -9,13 +9,29 @@
         margin-right: 20px;
     }
 
-    .ms_portfolio_inner .ms_p_item img {
+    /*.ms_portfolio_inner .ms_p_item img {
         width: 97%;
+    }*/
+
+    .ms_portfolio_inner .wd_25 img {
+        width: 96%;
+    }
+
+    .ms_portfolio_inner .wd_50 img {
+        width: 98%;
     }
 
     .ms_p_item img {
         border: 2px solid #7e8d9c;
         margin: 6px 0;
+    }
+
+    .portfolio_filter {
+        padding-bottom: 80px;
+    }
+
+    .gigante {
+        width: 50% !important;
     }
 </style>
 @endpush
@@ -38,7 +54,7 @@
             <div class="container">
                 <div class="portfolio_filter">
                     <ul>
-                        <li class="active" data-filter=".all"><a href="#">All </a></li>
+                        <!-- <li class="active" data-filter=".all"><a href="#">All </a></li> -->
                         <li data-filter=".film"><a href="#">Film & OTT Platform </a></li>
                         <li data-filter=".brand"><a href="#">Brand identity</a></li>
                         <li data-filter=".web"><a href="#">Web Solution </a></li>
@@ -54,8 +70,11 @@
                 <div class="ms_p_item wd_25 brand all corporate">
                     <img src="{{ asset('image/portfolio/brand/BROCHURE.jpg')}}" alt="">
                 </div>
-                <div class="ms_p_item wd_50 brand all">
-                    <img src="{{ asset('image/portfolio/brand/Genius-Brochure.jpg')}}" alt="">
+                <div class="ms_p_item wd_25 brand all">
+                    <img src="{{ asset('image/portfolio/brand/genius.jpg')}}" alt="">
+                </div>                
+                <div class="ms_p_item wd_25 brand all">
+                    <img src="{{ asset('image/portfolio/brand/genius-1.jpg')}}" alt="">
                 </div>
                 <div class="ms_p_item wd_50 brand all">
                     <img src="{{ asset('image/portfolio/brand/genius-kids-brochure.jpg')}}" alt="">
@@ -96,7 +115,7 @@
                 </div> 
 
                 <!--  Blank  -->
-                <div class="ms_p_item wd_25 brand corporate web all">
+                <div class="ms_p_item wd_25 web all">
                     <img src="{{ asset('image/portfolio/blank.jpg')}}" alt="">
                 </div>               
             </div>
@@ -113,5 +132,11 @@
     <script src="{{ asset('vendors/isotope/imagesloaded.pkgd.min.js') }}"></script>
     <script src="{{ asset('vendors/isotope/isotope.pkgd.min.js') }}"></script>    
     <script src="{{ asset('js/circle-active.js') }}"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('.image-link').magnificPopup({type:'image'});
+        });
+    </script>
 
 @endpush
