@@ -52,7 +52,7 @@
     <!--================End Challange Area =================--> 
     <br><br>
     <!--================We Are Company Area =================-->
-    <section class="we_company_area">
+    <section class="we_company_area" style="padding-bottom: 150px">
         <div class="container">
             <div class="row company_inner">
                 <div class="col-lg-6">
@@ -118,9 +118,10 @@
             </div>
         </div>
     </section>
+
     <!--================End We Are Company Area =================-->
     
-    @include('layouts.web-inc.team-people')
+    
 
 @endsection
 

@@ -30,9 +30,21 @@
         padding-bottom: 80px;
     }
 
-    .gigante {
+    /*.gigante {
         width: 50% !important;
+    }*/
+
+    img.mfp-img {
+       max-width: unset !important;
+       max-height: unset !important;
+       width: 125%;
     }
+    button.mfp-close {
+        width: 50px !important;
+        font-size: 60px;
+        background: black;
+    }
+
 </style>
 @endpush
 
@@ -65,7 +77,7 @@
             <div class="ms_portfolio_inner">
                 <!--  Brand  -->
                 <div class="ms_p_item wd_25 brand all">
-                    <img src="{{ asset('image/portfolio/brand/InvitationCard.jpg')}}" alt="">
+                    <img class="" src="{{ asset('image/portfolio/brand/InvitationCard.jpg')}}" alt="">
                 </div>
                 <div class="ms_p_item wd_25 brand all corporate">
                     <img src="{{ asset('image/portfolio/brand/BROCHURE.jpg')}}" alt="">
@@ -134,9 +146,31 @@
     <script src="{{ asset('js/circle-active.js') }}"></script>
 
     <script type="text/javascript">
+        
         $(document).ready(function() {
-          $('.image-link').magnificPopup({type:'image'});
+
+          $('div.all').magnificPopup({
+            delegate: 'img', 
+            type:'image',
+            callbacks: {
+                elementParse: function(item) { item.src = item.el.attr('src'); }
+                },
+            zoom: {
+                enabled: true, 
+                duration: 300, 
+                removalDelay: 300,
+                // easing: 'ease-in-out', 
+                opener: function(openerElement) {
+                  return openerElement.is('img') ? openerElement : openerElement.find('img');
+                    }
+                },
+            overflowY: 'scroll',
+            preloader: true,
+            closeOnContentClick: true
+            
+          });
         });
+
     </script>
 
 @endpush

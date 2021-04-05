@@ -243,12 +243,12 @@
                 });
 
 
-                // change size of item by toggling gigante class
-                portfolio.on( 'click', '.ms_p_item', function() {
-                  $(this).toggleClass('gigante');
-                  // trigger layout after item size changes
-                  portfolio.isotope('layout');
-                });
+                // // change size of item by toggling gigante class
+                // portfolio.on( 'click', '.ms_p_item', function() {
+                //   $(this).toggleClass('gigante');
+                //   // trigger layout after item size changes
+                //   portfolio.isotope('layout');
+                // });
 
             }); 
         }

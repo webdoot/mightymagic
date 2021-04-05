@@ -52,7 +52,7 @@
     </div>
     <div class="footer_copyright">
         <div class="container">
-            <h5 style="color: #c4caee">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Mighty Magic Digital Pvt. Ltd. </h5>
+            <h5 style="color: #c4caee">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <a href="https://www.webdoot.com">|</a> Mighty Magic Digital Pvt. Ltd. </h5>
         </div>
     </div>
 </footer>

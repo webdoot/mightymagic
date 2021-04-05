@@ -9,6 +9,8 @@
 
   <title>{{ config('app.name', 'Domain') }}-@yield('title')</title>  
 
+  @include('layouts.seo.meta')
+
   <!-- Icon css link -->
   <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
   <!-- Bootstrap -->
