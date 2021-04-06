@@ -59,7 +59,7 @@
 
 
     .touch_details {
-        margin-left: 0;
+        margin-left: 36px;
     }
 
     .touch_details p {
