@@ -241,10 +241,10 @@
 		.slide-top {
 			font-size: 29px;
       		line-height: 1.1em;				
-			top: 35%;
-			left: 13%;
+			top: 34%;
+			/*left: 1%;*/
 			position: relative;
-			left: initial;
+			width: 100%;
 		 }
 
 		 .slide-top p {
