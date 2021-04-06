@@ -7,8 +7,11 @@
     .challange_text_inner {
         max-width: 1160px;
         float: inherit;
-        text-align: justify;
         margin: auto;
+    }
+
+    .challange_text_inner p{
+        text-align: justify;
     }
 
     .company_skill {
@@ -31,7 +34,7 @@
     <!--================End Banner Area =================-->
     
     <!--================Challange Area =================-->
-    <section class="challange_area p_100">
+    <section class="challange_area" style="padding-top: 50px; padding-bottom: 100px">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">

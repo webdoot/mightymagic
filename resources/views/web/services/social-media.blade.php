@@ -7,9 +7,12 @@
     .challange_text_inner {
         max-width: 1160px;
         float: inherit;
-        text-align: justify;
         margin: auto;        
         padding-left: 20px;
+    }
+
+    .challange_text_inner p{
+        text-align: justify;
     }
  </style>
 @endpush
@@ -28,13 +31,13 @@
     <!--================End Banner Area =================-->
     
     <!--================Challange Area =================-->
-    <section class="challange_area p_100">
+    <section class="challange_area" style="padding-top: 50px; padding-bottom: 100px">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="challange_text_inner">
                         <div class="l_title">
-                            <img src="img/icon/title-icon.png" alt="">
+                            <img src="../img/icon/title-icon.png" alt="">
                             <h2>Social Media Marketing </h2>
                         </div>
                         <p>Social media is where many of your customers spend their leisure time. Facebook, Instagram, LinkedIn and other networking platforms provide wonderful opportunities for businesses to reach their ideal audience at the right time. You can use it to understand your customer’s needs, attract new  customers and help drive traffic to your website. <br><br> 

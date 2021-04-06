@@ -40,9 +40,15 @@
        width: 125%;
     }
     button.mfp-close {
-        width: 50px !important;
-        font-size: 60px;
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 30px;
+        line-height: 30px;
         background: black;
+        left: 0;
+        right: 0;
+        top: 5px;
+
     }
 
 </style>
@@ -62,7 +68,7 @@
         <!--================End Banner Area =================-->
         
         <!--================Portfolio Area =================-->
-        <section class="portfolio_area p_100">
+        <section class="portfolio_area" style="padding-top: 50px; padding-bottom: 100px">
             <div class="container">
                 <div class="portfolio_filter">
                     <ul>
@@ -166,7 +172,9 @@
                 },
             overflowY: 'scroll',
             preloader: true,
-            closeOnContentClick: true
+            closeOnContentClick: true,
+            closeBtnInside: true,
+            // modal: true
             
           });
         });

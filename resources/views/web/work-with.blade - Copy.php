@@ -15,27 +15,20 @@
         font-style: italic;
     }
 
-    .input-group > .custom-file {
-        /*display: -ms-flexbox;
-        display: flex;*/
+   /* .input-group > .custom-file {
         -ms-flex-align: center;
         align-items: center;
         position: relative;
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
-        /*width: 1%;*/
         height: 50px;
         border: 1px solid #ced4da;
-    }
+    }*/
 
-    .custom-file-input {
+    /*.custom-file-input {
         position: relative;
-        /*z-index: 2;*/
         width: 100%;
-        /*height: calc(2.25rem + 2px);*/
-        /*margin: 0;*/
-        /*opacity: 0;*/
-    }
+    }*/
 
     /*.input-group {
         position: relative;
@@ -52,14 +45,14 @@
         box-sizing: border-box;
     }*/
 
-    .custom-file-label {
+    /*.custom-file-label {
         font-size: 13px;
         font-family: "Open Sans", sans-serif;
         font-style: italic;
         background-color: #ced4da;
         padding: 10px 15px;
         color: #6b7d8e;
-    }
+    }*/
 
     .custom-select{
         width: 100%;
@@ -69,6 +62,11 @@
         font-style: italic;
         color: #6b7d8e;
 
+    }
+
+    .custom-file {
+        border: 1px solid #ced4da;
+        width: 100%;
     }
     
  </style>
@@ -111,13 +109,19 @@
                             </div>
                             <div class="form-group col-md-6">
 
-                             <label for="pfile">Portfolio</label>
+                                <!-- <label for="pfile">Portfolio</label>
                                 <div class="input-group">
                                   <div class="custom-file">                                    
                                     <label class="custom-file-label" for="pfile">Choose file</label>
                                     <input type="file" class="custom-file-input" id="pfile" name="pfile" placeholder="No file selected..">
                                   </div>
                                 </div>
+ -->
+                                <div class="custom-file">
+                                  <input type="file" class="custom-file-input" id="customFile">
+                                  <label class="custom-file-label" for="customFile">Choose file</label>
+                                </div>
+
 
                             </div>
 

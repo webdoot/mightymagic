@@ -7,9 +7,12 @@
     .challange_text_inner {
         max-width: 1160px;
         float: inherit;
-        text-align: justify;
         margin: auto;
         padding-left: 20px;
+    }
+
+    .challange_text_inner p{
+        text-align: justify;
     }
  </style>
 @endpush
@@ -28,13 +31,13 @@
     <!--================End Banner Area =================-->
     
     <!--================Challange Area =================-->
-    <section class="challange_area p_100">
+    <section class="challange_area" style="padding-top: 50px; padding-bottom: 100px">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="challange_text_inner">
                         <div class="l_title">
-                            <img src="img/icon/title-icon.png" alt="">
+                            <img src="../img/icon/title-icon.png" alt="">
                             <h2>Film Making and OTT Platform</h2>
                         </div>
                         <p>Film lets us speak in fresh and exciting ways. No matter our message, film will express it with clarity and creativity. Film, also called as motion picture, a visual art form used to simulate experiences that communicate ideas, stories, perceptions, feelings, beauty or atmosphere through the use of moving images. Our OTT platform is a wide area where all the different entertainment is being streamed. Mighty Magic Digital is also one streaming line which gives you huge exposure in web world. <br><br>

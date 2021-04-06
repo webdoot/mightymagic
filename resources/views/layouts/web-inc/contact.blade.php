@@ -1,5 +1,5 @@
 <!-- ================Get in Touch Area =================-->
-<section class="get_in_touch_area p_100">
+<section class="get_in_touch_area" style="padding-top: 50px; padding-bottom: 100px">
     <div class="container">
         <div class="row get_touch_inner">
             <div class="col-lg-6">

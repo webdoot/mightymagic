@@ -7,9 +7,12 @@
     .challange_text_inner {
         max-width: 1160px;
         float: inherit;
-        text-align: justify;
         margin: auto;
         padding-left: 20px;
+    }
+
+    .challange_text_inner p{
+        text-align: justify;
     }
  </style>
 @endpush
@@ -28,13 +31,13 @@
     <!--================End Banner Area =================-->
     
     <!--================Challange Area =================-->
-    <section class="challange_area p_100">
+    <section class="challange_area" style="padding-top: 50px; padding-bottom: 100px">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="challange_text_inner">
                         <div class="l_title">
-                            <img src="img/icon/title-icon.png" alt="">
+                            <img src="../img/icon/title-icon.png" alt="">
                             <h2>Web Solution </h2>
                         </div>
                         <p>A website gives you platform to serve your clients better. It almost removes the mark of questions from viewer’s mind. An attractive, usable, accessible and designed website provides the best possible experience to the users. <br><br>

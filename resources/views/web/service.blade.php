@@ -53,6 +53,10 @@
         font-size: 22px;
         font-family: vagrounde;
     }
+
+    .service_feature {
+        padding-top: 50px;
+    }
 </style>
 @endpush
 
@@ -70,7 +74,7 @@
         <!--================End Banner Area =================-->
         
         <!--================End Banner Area =================-->
-        <section class="service_feature">
+        <section class="service_feature" style="padding-top: 50px; padding-bottom: 100px">
             <div class="container">
                 <div class="row feature_inner">
                     <div class="col-lg-4 col-sm-6">
