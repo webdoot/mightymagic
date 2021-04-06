@@ -25,6 +25,7 @@
   <link href="{{ asset('vendors/owl-carousel/owl.carousel.min.css') }}" rel="stylesheet">
   <link href="{{ asset('vendors/owl-carousel/animate.min.css') }}" rel="stylesheet">
   <link href="{{ asset('vendors/magnify-popup/magnific-popup.css') }}" rel="stylesheet">
+  <link href="{{ asset('vendors/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet">
   
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
   <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
@@ -205,11 +206,24 @@
   <script src="{{ asset('vendors/counterup/countto.js') }}"></script>
   <script src="{{ asset('vendors/owl-carousel/owl.carousel.min.js') }}"></script>
   <script src="{{ asset('vendors/magnify-popup/jquery.magnific-popup.min.js') }}"></script>
+  <script src="{{ asset('vendors/sweetalert2/sweetalert2.min.js') }}"></script>
   <script src="{{ asset('js/smoothscroll.js') }}"></script>
 
   @stack('footer')
 
   <script src="{{ asset('js/theme.js') }}"></script> 
+
+  <script type="text/javascript">
+    @if (session('success'))
+        Swal.fire('', '{{ session('success') }}', 'success' );
+    @elseif (session('warning'))
+        Swal.fire('', '{{ session('warning') }}', 'warning' );
+    @elseif (session('error'))
+        Swal.fire('', '{{ session('error') }}', 'error' );
+    @elseif (session('info'))
+        Swal.fire('', '{{ session('info') }}', 'info' );
+    @endif 
+  </script>
 
 </body>
 </html>

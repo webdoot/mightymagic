@@ -23,11 +23,10 @@
                             <h3>Links</h3>
                         </div>
                         <ul>                          
-                            <li><a href="{{route('service')}}" style="color: #1D3F59">Services</a></li>                          
                             <li><a href="{{route('service.ott')}}" style="color: #1D3F59">Film & OTT Platform</a></li>                                                    
                             <li><a href="{{route('service.brand')}}" style="color: #1D3F59">Brand Identity</a></li>                                                    
                             <li><a href="{{route('service.web')}}" style="color: #1D3F59">Web Solution</a></li>                                                    
-                            <li><a href="{{route('service.corporate')}}" style="color: #1D3F59">Corporate Films & Photography</a></li>                                                    
+                            <li><a href="{{route('service.corporate')}}" style="color: #1D3F59">Corporate Films & Photography</a></li>                       
                             <li><a href="{{route('service.print')}}" style="color: #1D3F59">Print & Production</a></li>                                                    
                             <li><a href="{{route('service.social')}}" style="color: #1D3F59">Social Media Marketing</a></li>                              
                         </ul>
@@ -40,9 +39,10 @@
                         </div>
                         <ul>
                             <li><a href="{{route('about')}}" style="color: #1D3F59">About</a></li>
+                            <li><a href="{{route('service')}}" style="color: #1D3F59">Services</a></li>
                             <li><a href="{{route('portfolio')}}" style="color: #1D3F59">Portfolio</a></li>
                             <li><a href="{{route('workwith')}}" style="color: #1D3F59">Work With Us</a></li>                          
-                            <li><a href="{{route('contact')}}" style="color: #1D3F59">Reach Us</a></li>                         
+                            <li><a href="{{route('contact')}}" style="color: #1D3F59">Reach Us</a></li>
                             <li><a href="http://webmail.mightymagicdigital.com/" target="_blank" style="color: #1D3F59">Webmail</a></li>                                                                                                        
                         </ul>
                     </aside>

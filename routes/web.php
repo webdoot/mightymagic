@@ -33,7 +33,9 @@ Route::group(['middleware' => ['web']], function(){
 	Route::get('contact', 'Web\HomeController@contact')->name('contact');
 	Route::get('work-with-us', 'Web\HomeController@workWith')->name('workwith');
 
-	Route::get('dashboard', 'DashboardController@adminIndex')->name('dashboard.admin');
+	// submit forms
+	Route::post('contact', 'Web\FormController@contact')->name('contact.submit');
+	Route::post('work-with-us', 'Web\FormController@workWithUs')->name('workWithUs.submit');
 	
 });
 

@@ -13,54 +13,9 @@
         height: 50px;
         font-family: "Open Sans", sans-serif;
         font-style: italic;
-    }
+    }   
 
-    .input-group > .custom-file {
-        /*display: -ms-flexbox;
-        display: flex;*/
-        -ms-flex-align: center;
-        align-items: center;
-        position: relative;
-        -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
-        /*width: 1%;*/
-        height: 50px;
-        border: 1px solid #ced4da;
-    }
-
-    .custom-file-input {
-        position: relative;
-        /*z-index: 2;*/
-        width: 100%;
-        /*height: calc(2.25rem + 2px);*/
-        /*margin: 0;*/
-        /*opacity: 0;*/
-    }
-
-    /*.input-group {
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -ms-flex-align: stretch;
-        align-items: stretch;
-        width: 100%;
-    }
-
-    *, ::after, ::before {
-        box-sizing: border-box;
-    }*/
-
-    .custom-file-label {
-        font-size: 13px;
-        font-family: "Open Sans", sans-serif;
-        font-style: italic;
-        background-color: #ced4da;
-        padding: 10px 15px;
-        color: #6b7d8e;
-    }
-
+    /**  Select field  */
     .custom-select{
         width: 100%;
         font-size: 13px;
@@ -70,6 +25,52 @@
         color: #6b7d8e;
 
     }
+
+    /**  File upload   */
+    .custom-file {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        border: 1px solid #ced4da;
+        width: 100%;
+        font-size: 13px;
+        height: 50px;
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        color: #868e96;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: .25rem;
+    }
+
+    .custom-file-input {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+    }
+
+    .custom-file-label::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        display: block;
+        height: 100%;
+        padding: 10px 20px;
+        color: #495057;
+        content: "Browse";
+        background-color: #e9ecef;
+        border-left: 1px solid #ced4da;
+        border-radius: 0 .25rem .25rem 0;
+        font-weight: 600;
+    }
+
+    .custom-file-label {
+        padding-left: 15px;
+    }
+
     
  </style>
 @endpush
@@ -110,18 +111,12 @@
                                 <input type="text" class="form-control" id="contact" name="contact" placeholder="Phone">
                             </div>
                             <div class="form-group col-md-6">
-
-                             <label for="pfile">Portfolio</label>
-                                <div class="input-group">
-                                  <div class="custom-file">                                    
-                                    <label class="custom-file-label" for="pfile">Choose file</label>
-                                    <input type="file" class="custom-file-input" id="pfile" name="pfile" placeholder="No file selected..">
-                                  </div>
+                                <label>Portfolio</label>
+                                <div class="custom-file">
+                                  <input type="file" class="custom-file-input" name="pfile">
+                                  <label class="custom-file-label" for="customFile">Select a file</label>
                                 </div>
-
                             </div>
-
-
                         </div>
 
                         <div class="row m-4">
@@ -167,11 +162,6 @@
                         </div>
                     </form>
                 </div>
-
-
-                
-
-
 
             </div>
         </div>

@@ -14,15 +14,15 @@ $(document).ready(function(){
             rules: {
                 name: {
                     required: true,
-                    minlength: 2
+                    minlength: 3
                 },
                 subject: {
                     required: true,
                     minlength: 4
                 },
-                number: {
+                phone: {
                     required: true,
-                    minlength: 5
+                    minlength: 10
                 },
                 email: {
                     required: true,
@@ -30,7 +30,7 @@ $(document).ready(function(){
                 },
                 message: {
                     required: true,
-                    minlength: 20
+                    minlength: 10
                 }
             },
             messages: {
@@ -42,9 +42,9 @@ $(document).ready(function(){
                     required: "come on, you have a subject, don't you?",
                     minlength: "your subject must consist of at least 4 characters"
                 },
-                number: {
+                phone: {
                     required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    minlength: "your phone no must be of at least 10 digits"
                 },
                 email: {
                     required: "no email, no message"
@@ -54,11 +54,13 @@ $(document).ready(function(){
                     minlength: "thats all? really?"
                 }
             },
+
+
             submitHandler: function(form) {
                 $(form).ajaxSubmit({
                     type:"POST",
                     data: $(form).serialize(),
-                    url:"contact_process.php",
+                    url:"{{route('contact.submit')}}",
                     success: function() {
                         $('#contactForm :input').attr('disabled', 'disabled');
                         $('#contactForm').fadeTo( "slow", 1, function() {
@@ -78,8 +80,10 @@ $(document).ready(function(){
                     }
                 })
             }
+
+            
         })
-    })
+    });
         
  })(jQuery)
 })
