@@ -71,6 +71,7 @@
 
     }
 
+
     
  </style>
 @endpush
@@ -115,7 +116,7 @@
                                 <div class="input-group">
                                   <div class="custom-file">                                    
                                     <label class="custom-file-label" for="pfile">Choose file</label>
-                                    <input type="file" class="custom-file-input" id="pfile" name="pfile">
+                                    <input type="file" class="custom-file-input" id="pfile" name="pfile" placeholder="No file selected..">
                                   </div>
                                 </div>
                             </div>
@@ -182,4 +183,5 @@
 
 
 @push('footer')
+<script src="{{ asset('js/bs-custom-file-input.js') }}"></script>
 @endpush

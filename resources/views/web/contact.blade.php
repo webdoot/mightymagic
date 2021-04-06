@@ -16,7 +16,7 @@
     .accordion {
       margin-top: 118px;
       margin-left: 30px;
-    }   
+    }       
 
     button.btn-link, button.btn-link:hover {
       text-decoration: none !important;
@@ -24,6 +24,29 @@
       font-family: vagrounde;
       font-size: 20px;
     }  
+
+    @media (max-width: 560px){
+         .accordion {
+          margin-left: 0;
+        }
+
+        button.btn-link, button.btn-link:hover {
+          font-size: 16px;
+        } 
+
+        button.btn-link img{
+          width: 45px;
+        }
+
+        .card-header {
+          padding: 0;
+        }
+
+        .touch_details {
+            margin-top: 30px;
+            margin-bottom: -10px;
+        }
+    }
 
     .card {
       border: none;
