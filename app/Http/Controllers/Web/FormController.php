@@ -45,6 +45,7 @@ class FormController extends Controller
 						],
 		
          );
+        
 
 		 if($validation->fails()){
 		    return back()->with('error', 'Please fill valid data in (*) marked fields.')->withInput()->withErrors($validation);
