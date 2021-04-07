@@ -102,7 +102,7 @@
                 <div class="col-md-12 col-12">
                     <form action="{{route('workWithUs.submit')}}" method="post" id="contactForm" novalidate="novalidate">
                     @csrf
-                        <div class="row m-4">
+                        <div class="row">
                             <div class="form-group col-md-6">
                                 <label>Full Name</label>
                                 <input type="text" class="form-control" name="name" placeholder="Full Name">
@@ -123,7 +123,7 @@
                             </div>
                         </div>
 
-                        <div class="row m-4">
+                        <div class="row">
                             <div class="form-group col-md-6">
                                 <label>Phone</label>
                                 <input type="number" class="form-control" name="phone" placeholder="Phone no">
@@ -147,7 +147,7 @@
                             </div>
                         </div>
 
-                        <div class="row m-4">
+                        <div class="row">
                             <div class="form-group col-md-6">
                                 <label>Gender</label>
                                 <select name="gender" class="custom-select">
@@ -194,7 +194,7 @@
                             </div>
                         </div>
 
-                        <div class="row m-4">
+                        <div class="row">
                             <div class="form-group col-md-12">
                                 <button type="submit" value="submit" class="btn submit_btn form-control">Submit</button>
                             </div>
