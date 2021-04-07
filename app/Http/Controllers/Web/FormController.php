@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Validator;
 class FormController extends Controller
 {
     public function contact(Request $request)
-    {
+    {  
     	// Validation.
         $validation = Validator::make($request->all(),
                         [   'name'      => 'bail|required|string|min:3',
