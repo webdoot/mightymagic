@@ -12,8 +12,11 @@ npm-debug.log
 yarn-error.log
 .ftpquota
 /public/.htaccess
-.htaccess
 MightyMagic-Old 21-04-07.zip
 /MightyMagic-Old 21-04-07
 /cgi-bin
 /.well-known
+.htaccess
+index.php
+web.config
+
