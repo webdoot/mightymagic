@@ -71,6 +71,13 @@
         padding-left: 15px;
     }
 
+    .error {
+        color: #E51A4B;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
     
  </style>
 @endpush
@@ -93,22 +100,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-12">
-                    <form action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                    <form action="{{route('workWithUs.submit')}}" method="post" id="contactForm" novalidate="novalidate">
+                    @csrf
                         <div class="row m-4">
                             <div class="form-group col-md-6">
-                                <label for="name">Full Name</label>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+                                <label>Full Name</label>
+                                <input type="text" class="form-control" name="name" placeholder="Full Name">
+
+                                @error('name')
+                                <label class="error">{{ $message }}</label>
+                                @enderror
+                                
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="name">Email</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                <label>Email</label>
+                                <input type="email" class="form-control" name="email" placeholder="Email">
+
+                                @error('email')
+                                <label class="error">{{ $message }}</label>
+                                @enderror
+                                
                             </div>
                         </div>
 
                         <div class="row m-4">
                             <div class="form-group col-md-6">
-                                <label for="name">Phone</label>
-                                <input type="text" class="form-control" id="contact" name="contact" placeholder="Phone">
+                                <label>Phone</label>
+                                <input type="number" class="form-control" name="phone" placeholder="Phone no">
+
+                                @error('phone')
+                                <label class="error">{{ $message }}</label>
+                                @enderror
+                                
                             </div>
                             <div class="form-group col-md-6">
                                 <label>Portfolio</label>
@@ -116,22 +139,33 @@
                                   <input type="file" class="custom-file-input" name="pfile">
                                   <label class="custom-file-label" for="customFile">Select a file</label>
                                 </div>
+
+                                @error('pfile')
+                                <label class="error">{{ $message }}</label>
+                                @enderror
+                                
                             </div>
                         </div>
 
                         <div class="row m-4">
                             <div class="form-group col-md-6">
-                                <label for="name">Gender</label>
-                                <select name="Gender" class="custom-select">
+                                <label>Gender</label>
+                                <select name="gender" class="custom-select">
                                     <option selected>Select one</option>
                                     <option value="Male">Male</option>
                                     <option value="Female">Female</option>
                                     <option value="Other">Other</option>
                                 </select>
+
+                                @error('gender')
+                                <label class="error">{{ $message }}</label>
+                                @enderror
+                                
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="name">Category</label>
-                                <select name="Category" class="custom-select">
+                                <label>Category</label>
+                                <select name="category" class="custom-select">
+                                    <option selected>Select one</option>
                                     <option value="Director">Director</option>
                                     <option value="Chief Assistant Director">Chief Assistant Director</option>
                                     <option value="Writer">Writer</option>
@@ -152,6 +186,11 @@
                                     <option value="Intern">Intern</option>
                                     <option value="Others">Others</option>
                                 </select>
+
+                                @error('category')
+                                <label class="error">{{ $message }}</label>
+                                @enderror
+                                
                             </div>
                         </div>
 

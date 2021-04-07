@@ -33,12 +33,15 @@ class FormController extends Controller
 
     public function workWithUs(Request $request)
     {
+    	dd($request);
     	// Validation.
         $validation = Validator::make($request->all(),
                         [   'name'      => 'bail|required|string|min:3',
 		        			'email'  	=> 'required|email',
                             'phone'     => 'required|regex:/[0-9]{10}/|digits:10',
-                            'message'   => 'required|string',                
+                            'pfile'   	=> 'nullable|file',                
+                            'gender'   	=> 'required|string',                
+                            'category' 	=> 'required|string',                
 						],
 		
          );
