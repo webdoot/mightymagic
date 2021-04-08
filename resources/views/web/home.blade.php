@@ -254,11 +254,11 @@
 
 	/* Achievments */
 	.mileston_item {
-		background-image: url('../img/3d-shap.png');
+		background-image: url({{ asset('img/3d-shap.png')}});
 	}
 
 	.mileston_item_r {
-		background-image: url('../img/3d-shap-1.png');
+		background-image: url({{ asset('img/3d-shap-1.png')}});
 	}
 
 	.mileston_item, .mileston_item_r {
@@ -553,7 +553,7 @@
                 <div class="col-lg-6">
                     <div class="challange_text_inner">
                         <div class="l_title">
-                            <img src="img/icon/title-icon.png" alt="">
+                            <img src="{{ asset('img/icon/title-icon.png')}}" alt="">
                             <h2>Our Upcoming Projects</h2>
                         </div>
                         <p>Every company’s name is known by its work. So let’s have a look on our upcoming projects related to Mighty Magic Digital’s creative ideas presented on reel with reality.</p>
@@ -562,26 +562,26 @@
                 <div class="col-lg-6">
                 	<div class="upcome_project_inner owl-carousel">
                 		<div class="item" style="width: 570px">
-                			<img class="img-fluid" src="../img/trailer-1.jpg" alt="">
+                			<img class="img-fluid" src="{{ asset('img/trailer-1.jpg')}}" alt="">
                 			<div class="c_video">
 		                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=LTXD6XZXc3U">
-		                        	<img src="../img/icon/video-icon.png" alt=""></a>
+		                        	<img src="{{ asset('img/icon/video-icon.png')}}" alt=""></a>
 		                    </div>
                 		</div>
 
                 		<div class="item" style="width: 570px">
-                			<img class="img-fluid" src="../img/pp-1.jpg" alt="">
+                			<img class="img-fluid" src="{{ asset('img/pp-1.jpg')}}" alt="">
                 			<div class="c_video">
 		                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=RK1K2bCg4J8">
-		                        	<img src="../img/icon/video-icon.png" alt=""></a>
+		                        	<img src="{{ asset('img/icon/video-icon.png')}}" alt=""></a>
 		                    </div>
                 		</div>
 
                 		<div class="item" style="width: 570px">
-                			<img class="img-fluid" src="../img/swan.jpg" alt="">
+                			<img class="img-fluid" src="{{ asset('img/swan.jpg')}}" alt="">
                 			<div class="c_video">
 		                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=rN6nlNC9WQA">
-		                        	<img src="../img/icon/video-icon.png" alt=""></a>
+		                        	<img src="{{ asset('img/icon/video-icon.png')}}" alt=""></a>
 		                    </div>
                 		</div>
 

@@ -42,7 +42,7 @@
   <style type="text/css">
     @font-face {
       font-family: vagrounde;
-      src: url(../fonts/VAGRoundedBT.ttf);
+      src: url({{ asset('fonts/VAGRoundedBT.ttf')}});
       font-weight: 300;
     }
 

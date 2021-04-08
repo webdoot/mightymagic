@@ -194,7 +194,7 @@
                     <div class="col-lg-6">
                         <div class="s_solution_item">
                             <div class="l_title">
-                                <img src="img/icon/title-icon.png" alt="">
+                                <img src="{{ asset('img/icon/title-icon.png')}}" alt="">
                                 <h2>Simple solutions for complicated times</h2>
                             </div>
                             <p>It’s likely that all businesses will need to outsource creative services from time to time. Needing to design and print items such as flyers or business cards is fairly typical, but maintaining a constant flow of visually engaging digital content can be instrumental to your online brand awareness. <br> <br>
