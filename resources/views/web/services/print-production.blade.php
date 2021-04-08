@@ -37,7 +37,7 @@
                 <div class="col-lg-12">
                     <div class="challange_text_inner">
                         <div class="l_title">
-                            <img src="../img/icon/title-icon.png" alt="">
+                            <img src="{{ asset('img/icon/title-icon.png')}}" alt="">
                             <h2>Print & Production </h2>
                         </div>
                         <p>Print materials are an important part of your business's marketing collateral, they're the footprint that your business leaves behind. From brochures and business cards, to private label water bottles and velvet presentation folders, we have the ability to design and produce almost any branded print material for you and your team. Since we work directly with our national printer, we have the ability to cut out the middlemen and provide exceptionally competitive pricing. Just ask us! </p>

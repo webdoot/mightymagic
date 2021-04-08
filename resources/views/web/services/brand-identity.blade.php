@@ -37,7 +37,7 @@
                 <div class="col-lg-12">
                     <div class="challange_text_inner">
                         <div class="l_title">
-                            <img src="../img/icon/title-icon.png" alt="">
+                            <img src="{{ asset('img/icon/title-icon.png')}}" alt="">
                             <h2>Brand Identity </h2>
                         </div>
                         <p>Graphic design is all around you. A design with unique message which gives desired result from that message. The message may be providing information, invoke thoughts or even stimulates meaningful conversation. It’s about expressing an idea in the best way using visual story telling. <br><br>

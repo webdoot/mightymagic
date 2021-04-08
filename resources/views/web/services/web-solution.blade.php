@@ -37,7 +37,7 @@
                 <div class="col-lg-12">
                     <div class="challange_text_inner">
                         <div class="l_title">
-                            <img src="../img/icon/title-icon.png" alt="">
+                            <img src="{{ asset('img/icon/title-icon.png')}}" alt="">
                             <h2>Web Solution </h2>
                         </div>
                         <p>A website gives you platform to serve your clients better. It almost removes the mark of questions from viewer’s mind. An attractive, usable, accessible and designed website provides the best possible experience to the users. <br><br>

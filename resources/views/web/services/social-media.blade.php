@@ -37,7 +37,7 @@
                 <div class="col-lg-12">
                     <div class="challange_text_inner">
                         <div class="l_title">
-                            <img src="../img/icon/title-icon.png" alt="">
+                            <img src="{{ asset('img/icon/title-icon.png')}}" alt="">
                             <h2>Social Media Marketing </h2>
                         </div>
                         <p>Social media is where many of your customers spend their leisure time. Facebook, Instagram, LinkedIn and other networking platforms provide wonderful opportunities for businesses to reach their ideal audience at the right time. You can use it to understand your customer’s needs, attract new  customers and help drive traffic to your website. <br><br> 
