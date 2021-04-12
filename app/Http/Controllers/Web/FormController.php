@@ -148,7 +148,7 @@ class FormController extends Controller
         
         // Recieve mail
         Mail::send('mail.html', $this->data, function($message) {
-                $message->to('marketing@mightymagicdigital.com', 'Marketin');             
+                $message->to('webdoot.com@gmail.com', 'Marketin');             
                 $message->from('noreply@mightymagicdigital.com','MMD QuoteForm');
                 $message->replyTo($this->data['email'], $this->data['name']);
                 $message->subject('Quote Submitted - ' . $this->data['name']);
