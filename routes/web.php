@@ -36,6 +36,7 @@ Route::group(['middleware' => ['web']], function(){
 	// submit forms
 	Route::post('contact', 'Web\FormController@contact')->name('contact.submit');
 	Route::post('work-with-us', 'Web\FormController@workWithUs')->name('workWithUs.submit');
+	Route::post('quote', 'Web\FormController@getQuote')->name('quote.submit');
 	
 });
 

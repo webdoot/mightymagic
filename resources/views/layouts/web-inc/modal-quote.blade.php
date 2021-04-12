@@ -10,12 +10,13 @@
       </div>
       <div class="modal-body">
         
-        <form action="" method="post" id="contactForm" novalidate="novalidate">
+        <form action="{{route('quote.submit')}}" method="post" id="quoteForm" novalidate="novalidate">
+          @csrf
             <div class="form-group">
                 <input type="text" class="form-control" id="name" name="name" placeholder="Name*">
             </div>
             <div class="form-group">
-                <input type="number" class="form-control" id="contact" name="contact" placeholder="Contact*">
+                <input type="text" class="form-control" id="contact" name="contact" placeholder="Contact*">
             </div>
             <div class="form-group">
                 <input type="email" class="form-control" id="email" name="email" placeholder="Email*">

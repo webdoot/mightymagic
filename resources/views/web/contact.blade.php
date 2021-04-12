@@ -77,6 +77,16 @@
       padding: 4px 0px;
       border-radius: 4px;
     }
+
+    .error {
+      color: #E51A4B;
+    }
+
+    .swal2-actions button.swal2-styled {
+        background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);
+        background-size: 200% auto;
+        transition: all 400ms ease-out;
+    }
     
 </style>
 @endpush
@@ -113,13 +123,13 @@
                         @enderror
                       </div>
                       <div class="form-group col-lg-12">
-                        <input type="number" class="form-control" name="phone" placeholder="Contact *">
-                        @error('number')
+                        <input type="text" class="form-control" name="phone" placeholder="Contact *">
+                        @error('phone')
                         <label for="name" class="error">{{ $message }}</label>
                         @enderror
                       </div>
                       <div class="form-group col-lg-12">
-                        <textarea class="form-control" name="message" rows="1" placeholder="Message"></textarea>
+                        <textarea class="form-control" name="message" rows="1" placeholder="Message *"></textarea>
                         @error('message')
                         <label for="name" class="error">{{ $message }}</label>
                         @enderror

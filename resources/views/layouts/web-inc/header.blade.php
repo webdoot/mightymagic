@@ -15,7 +15,7 @@
             <ul class="navbar-nav">
                 <li class="nav-item {{ (request()->is('home')) ? 'active' : '' }}"><a class="nav-link" href="{{route('home')}}">Home</a></li>
                 <li class="nav-item {{ (request()->is('about')) ? 'active' : '' }}"><a class="nav-link" href="{{route('about')}}">About</a></li>
-                <li class="nav-item dropdown submenu {{ (request()->is('service')) ? 'active' : '' }}">
+                <li class="nav-item dropdown submenu {{ (request()->is('services')) ? 'active' : '' }}">
                     <a class="nav-link dropdown-toggle" href="{{route('service')}}" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li class="nav-item"><a class="nav-link" href="{{route('service.ott')}}">Film & OTT Platform</a></li>                        
@@ -26,8 +26,8 @@
                         <li class="nav-item"><a class="nav-link" href="{{route('service.social')}}">Social Media Marketing</a></li>
                     </ul>
                 </li>
-                <li class="nav-item {{ (request()->is('portfolio')) ? 'active' : '' }}"><a class="nav-link" href="{{route('portfolio')}}">Portfolio</a></li>                
-                <li class="nav-item {{ (request()->is('workwith')) ? 'active' : '' }}"><a class="nav-link" href="{{route('workwith')}}">Work With Us</a></li>
+                <li class="nav-item {{ (request()->is('portfolio')) ? 'active' : '' }}"><a class="nav-link" href="{{route('portfolio')}}">Portfolio</a></li>                    
+                <li class="nav-item {{ (request()->is('work-with-us')) ? 'active' : '' }}"><a class="nav-link" href="{{route('workwith')}}">Work With Us</a></li>
                 <li class="nav-item {{ (request()->is('contact')) ? 'active' : '' }}"><a class="nav-link" href="{{route('contact')}}">Reach Us</a></li>
             </ul>
         </div>

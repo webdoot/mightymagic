@@ -57,6 +57,16 @@
     .service_feature {
         padding-top: 50px;
     }
+
+    .error {
+      color: #E51A4B;
+    }
+
+    .swal2-actions button.swal2-styled {
+        background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);
+        background-size: 200% auto;
+        transition: all 400ms ease-out;
+    }
 </style>
 @endpush
 
@@ -218,6 +228,38 @@
 
         @include('layouts.web-inc.modal-quote')
 
+        <!--================Contact Success and Error message Area =================-->
+        <div id="success" class="modal modal-message fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="fa fa-close"></i>
+                        </button>
+                        <h2>Thank you</h2>
+                        <p>Your message is successfully sent...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modals error -->
+
+        <div id="error" class="modal modal-message fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="fa fa-close"></i>
+                        </button>
+                        <h2>Sorry !</h2>
+                        <p> Something went wrong </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--================End Contact Success and Error message Area =================-->
+
 @endsection
 
 
@@ -225,5 +267,71 @@
 <script src="{{ asset('vendors/circle-bar/circle-progress.min.js')}}"></script>
 <script src="{{ asset('vendors/circle-bar/plugins.js')}}"></script>
 <script src="{{ asset('js/circle-active.js')}}"></script>
+
+<script src="{{ asset('js/jquery.form.js') }}"></script>
+<script src="{{ asset('js/jquery.validate.min.js') }}"></script>
+
+<script type="text/javascript">   
+
+  $(function(){
+    // validate contactForm form
+    $('#quoteForm').validate({
+        rules: {
+            name: {
+                required: true,
+                minlength: 3
+            },
+            contact: {
+                required: true,
+                minlength: 10
+            },
+            email: {
+                required: true,
+                email: true
+            },
+        },
+        messages: {
+            name: {
+                required: "come on, you have a name, don't you?",
+                minlength: "your name must consist of at least 2 characters"
+            },
+            contact: {
+                required: "come on, you have a number, don't you?",
+                minlength: "your phone no must be of at least 10 digits"
+            },
+            email: {
+                required: "no email, no message"
+            }
+        },
+
+        // submitHandler: function(form) {
+        //     $(form).ajaxSubmit({
+        //         type:"POST",
+        //         data: $(form).serialize(),
+        //         url:"{{route('quote.submit')}}",
+        //         success: function() {
+        //             $('#quoteForm :input').attr('disabled', 'disabled');
+        //             $('#quoteForm').fadeTo( "slow", 1, function() {
+        //                 $(this).find(':input').attr('disabled', 'disabled');
+        //                 $(this).find('label').css('cursor','default');
+        //                 $('#success').fadeIn()
+        //                 $('.modal').modal('hide');
+        //                 $('#success').modal('show');
+        //             })
+        //         },
+        //         error: function() {
+        //             $('#quoteForm').fadeTo( "slow", 1, function() {
+        //                 $('#error').fadeIn()
+        //                 $('.modal').modal('hide');
+        //                 $('#error').modal('show');
+        //             })
+        //         }
+        //     })
+        // }          
+    })
+
+  });
+
+</script>
 
 @endpush

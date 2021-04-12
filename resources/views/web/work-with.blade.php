@@ -78,6 +78,12 @@
         font-style: italic;
     }
 
+    .swal2-actions button.swal2-styled {
+        background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);
+        background-size: 200% auto;
+        transition: all 400ms ease-out;
+    }
+
     
  </style>
 @endpush
@@ -100,7 +106,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-12">
-                    <form action="{{route('workWithUs.submit')}}" method="post" id="contactForm" novalidate="novalidate">
+                    <form action="{{route('workWithUs.submit')}}" method="post" id="contactForm" novalidate="novalidate" enctype="multipart/form-data">
                     @csrf
                         <div class="row">
                             <div class="form-group col-md-6">
@@ -126,7 +132,7 @@
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label>Phone</label>
-                                <input type="number" class="form-control" name="phone" placeholder="Phone no">
+                                <input type="text" class="form-control" name="phone" placeholder="Phone no">
 
                                 @error('phone')
                                 <label class="error">{{ $message }}</label>
