@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Mail;
+// use Illuminate\Http\File;
 
 class FormController extends Controller
 {
@@ -59,7 +60,7 @@ class FormController extends Controller
             Mail::send('mail.reply', $this->data, function($message) {
                 // construct title
                 $title_2 = 'Your form submitted on Mighty Magic Digital' ;
-                
+
                 $message->to($this->data['email'], $this->data['name']);             
                 $message->from('noreply@mightymagicdigital.com','MightyMagicDigital');
                 $message->subject($title_2);
@@ -101,7 +102,8 @@ class FormController extends Controller
                     'gender'    =>  $request->gender          ,
                     'category'  =>  $request->category        ,
 
-                    'pfile'     =>  $request->pfile           ,
+                    'file'      =>  $request->pfile            ,
+                    'file_name' =>  $request->file('pfile')->getClientOriginalName() ,
 
                     // subject what you give
                     'subject'   => 'Work with us form submitted'   ,
@@ -119,12 +121,11 @@ class FormController extends Controller
                 // construct title
                 $title_1 = 'Work with us form submitted - ' . $this->data['name'];
 
-                // $message->to('team@mightymagicdigital.com', 'Team');             
-                $message->to('webdoot.com@gmail.com', 'Team');             
+                $message->to('team@mightymagicdigital.com', 'Team');             
                 $message->from('noreply@mightymagicdigital.com','MMD WorkWithUs');
                 $message->replyTo($this->data['email'], $this->data['name']);
                 $message->subject($title_1);
-                $message->attach($this->data['pfile']);
+                $message->attach($this->data['file'], [ 'as' => $this->data['file_name'] ]);
             });
 
             // Reply mail to client
