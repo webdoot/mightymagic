@@ -40,21 +40,35 @@ class FormController extends Controller
                     'ip'        =>  $request->ip()            ,
 
                 ];
+
+        // put try & catch block                 
+        try {
         
-        // Recieve mail
-        Mail::send('mail.html', $this->data, function($message) {
+            // Recieve mail
+            Mail::send('mail.html', $this->data, function($message) {
+                // construct title
+                $title_1 = 'Contact form submitted - ' . $this->data['name'];
+
                 $message->to('marketing@mightymagicdigital.com', 'Mighty Magic Digital');             
                 $message->from('noreply@mightymagicdigital.com','MMD QuoteForm');
                 $message->replyTo($this->data['email'], $this->data['name']);
-                $message->subject('Contact form submitted - ' . $this->data['name']);
-        });
+                $message->subject($title_1);
+            });
 
-        // Reply mail to client
-        Mail::send('mail.reply', $this->data, function($message) {
+            // Reply mail to client
+            Mail::send('mail.reply', $this->data, function($message) {
+                // construct title
+                $title_2 = 'Your form submitted on Mighty Magic Digital' ;
+                
                 $message->to($this->data['email'], $this->data['name']);             
                 $message->from('noreply@mightymagicdigital.com','MightyMagicDigital');
-                $message->subject('Your form submitted on Mighty Magic Digital');
-        });
+                $message->subject($title_2);
+            });
+
+        } catch (\Exception $e) {
+            // Return mail not send error       
+            return back()->with('error', 'Form not submitted, server error.');
+        }  
 
     	return back()->with('success', 'Your message submitted successfully. We will reach you soon...');
 
@@ -96,22 +110,37 @@ class FormController extends Controller
                     'ip'        =>  $request->ip()            ,
 
                 ];
+
+        // put try & catch block                 
+        try {
         
-        // Recieve mail
-        Mail::send('mail.html', $this->data, function($message) {
-                $message->to('team@mightymagicdigital.com', 'Team');             
+            // Recieve mail
+            Mail::send('mail.html', $this->data, function($message) {
+                // construct title
+                $title_1 = 'Work with us form submitted - ' . $this->data['name'];
+
+                // $message->to('team@mightymagicdigital.com', 'Team');             
+                $message->to('webdoot.com@gmail.com', 'Team');             
                 $message->from('noreply@mightymagicdigital.com','MMD WorkWithUs');
                 $message->replyTo($this->data['email'], $this->data['name']);
-                $message->subject('Work with us submitted - ' . $this->data['name']);
+                $message->subject($title_1);
                 $message->attach($this->data['pfile']);
-        });
+            });
 
-        // Reply mail to client
-        Mail::send('mail.reply', $this->data, function($message) {
+            // Reply mail to client
+            Mail::send('mail.reply', $this->data, function($message) {
+                // construct title
+                $title_2 = 'Your form submitted on Mighty Magic Digital' ;
+
                 $message->to($this->data['email'], $this->data['name']);             
                 $message->from('noreply@mightymagicdigital.com','MightyMagicDigital');
-                $message->subject('Your form submitted on Mighty Magic Digital');
-        });
+                $message->subject($title_2);
+            });
+
+        } catch (\Exception $e) {
+            // Return mail not send error       
+            return back()->with('error', 'Form not submitted, server error.');
+        }   
 
     	return back()->with('success', 'Your message submitted successfully. We will reach you soon...');
 
@@ -154,7 +183,7 @@ class FormController extends Controller
                 // construct title
                 $title_1 = 'Quote Submitted - ' . $this->data['name'];
                 // send mail
-                $message->to('webdoot.com@gmail.com', 'Marketin');             
+                $message->to('marketing@mightymagicdigital.com', 'Mighty Magic Digital');             
                 $message->from('noreply@mightymagicdigital.com','MMD QuoteForm');
                 $message->replyTo($this->data['email'], $this->data['name']);
                 $message->subject($title_1);
