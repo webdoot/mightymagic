@@ -145,21 +145,35 @@ class FormController extends Controller
                     'ip'        =>  $request->ip()            ,
 
                 ];
+
+        // put try & catch block                 
+        try {
         
-        // Recieve mail
-        Mail::send('mail.html', $this->data, function($message) {
+            // Recieve mail
+            Mail::send('mail.html', $this->data, function($message) {
+                // construct title
+                $title_1 = 'Quote Submitted - ' . $this->data['name'];
+                // send mail
                 $message->to('webdoot.com@gmail.com', 'Marketin');             
                 $message->from('noreply@mightymagicdigital.com','MMD QuoteForm');
                 $message->replyTo($this->data['email'], $this->data['name']);
-                $message->subject('Quote Submitted - ' . $this->data['name']);
-        });
+                $message->subject($title_1);
+            });
 
-        // Reply mail to client
-        Mail::send('mail.reply', $this->data, function($message) {
+            // Reply mail to client
+            Mail::send('mail.reply', $this->data, function($message) {
+                // construct title
+                $title_2 = 'Your query submitted on Mighty Magic Digital';
+                // send mail
                 $message->to($this->data['email'], $this->data['name']);             
                 $message->from('noreply@mightymagicdigital.com','MightyMagicDigital');
-                $message->subject('Your query submitted on Mighty Magic Digital');
-        });
+                $message->subject($title_2);
+            });
+
+        } catch (\Exception $e) {
+            // Return mail not send error       
+            return back()->with('error', 'Form not submitted, server error.');
+        }    
         
         return back()->with('success', 'Your message submitted successfully. We will reach you soon...');
 
